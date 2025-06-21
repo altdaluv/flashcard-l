@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cardInner = document.querySelector('.card-inner');
+    const flashcardContainer = document.getElementById('flashcard-container');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const doneBtn = document.getElementById('done-btn');
@@ -38,6 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function flipCard() {
         cardInner.classList.toggle('flipped');
         updateThemeColor();
+        if (navigator.vibrate) {
+            navigator.vibrate(10);
+        }
     }
 
     flipBtnFront.addEventListener('click', flipCard);
@@ -142,7 +146,33 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         localStorage.setItem('doneCards', JSON.stringify(doneCards));
         updateThemeColor();
+        if (navigator.vibrate) {
+            navigator.vibrate(50);
+        }
     });
+
+    // --- Swipe Gestures ---
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    function handleSwipe() {
+        const swipeThreshold = 50; // Minimum distance for a swipe in pixels
+        if (touchEndX < touchStartX - swipeThreshold) {
+            nextBtn.click(); // Swiped left
+        }
+        if (touchEndX > touchStartX + swipeThreshold) {
+            prevBtn.click(); // Swiped right
+        }
+    }
+
+    flashcardContainer.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    flashcardContainer.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
 
     loadFlashcards();
 }); 
