@@ -53,8 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (doneCards.includes(currentQuestion)) {
             flashcard.classList.add('done');
+            doneBtn.textContent = 'Mark as Un-done';
+            doneBtn.classList.add('undone');
         } else {
             flashcard.classList.remove('done');
+            doneBtn.textContent = 'Mark as Done';
+            doneBtn.classList.remove('undone');
         }
 
         updateButtons();
@@ -84,11 +88,23 @@ document.addEventListener('DOMContentLoaded', () => {
     doneBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         const currentQuestion = flashcards[currentCardIndex].Question;
-        if (!doneCards.includes(currentQuestion)) {
+        const isDone = doneCards.includes(currentQuestion);
+
+        if (isDone) {
+            // It's done, so un-mark it
+            doneCards = doneCards.filter(q => q !== currentQuestion);
+            flashcard.classList.remove('done');
+            doneBtn.textContent = 'Mark as Done';
+            doneBtn.classList.remove('undone');
+        } else {
+            // It's not done, so mark it
             doneCards.push(currentQuestion);
-            localStorage.setItem('doneCards', JSON.stringify(doneCards));
             flashcard.classList.add('done');
+            doneBtn.textContent = 'Mark as Un-done';
+            doneBtn.classList.add('undone');
         }
+        // Save the updated list to localStorage
+        localStorage.setItem('doneCards', JSON.stringify(doneCards));
     });
 
     loadFlashcards();

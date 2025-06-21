@@ -92,6 +92,10 @@ button {
     font-size: 14px;
 }
 
+#done-btn.undone {
+    background-color: #ff3b30; /* Apple Red */
+}
+
 button:hover {
     background-color: #005ecb;
 }
