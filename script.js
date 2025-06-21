@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const backSentence = document.getElementById('back-sentence');
     
     // Card state elements
-    const cardFront = document.querySelector('.card-front');
+    const cardBack = document.querySelector('.card-back');
 
     let flashcards = [];
     let currentCardIndex = 0;
@@ -74,11 +74,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Update done status
         if (doneCards.includes(uniqueId)) {
-            cardFront.classList.add('done');
+            cardBack.classList.add('done');
             doneBtn.classList.add('done');
             doneBtn.textContent = 'Marked as done';
         } else {
-            cardFront.classList.remove('done');
+            cardBack.classList.remove('done');
             doneBtn.classList.remove('done');
             doneBtn.textContent = 'Mark as done';
         }
@@ -114,12 +114,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isDone) {
             doneCards = doneCards.filter(id => id !== uniqueId);
-            cardFront.classList.remove('done');
+            cardBack.classList.remove('done');
             doneBtn.classList.remove('done');
             doneBtn.textContent = 'Mark as done';
         } else {
             doneCards.push(uniqueId);
-            cardFront.classList.add('done');
+            cardBack.classList.add('done');
             doneBtn.classList.add('done');
             doneBtn.textContent = 'Marked as done';
         }

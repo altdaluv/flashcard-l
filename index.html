@@ -11,8 +11,19 @@
     <div id="flashcard-container">
         <div class="flashcard">
             <div class="card-inner">
-                <!-- Front (English Side) -->
+                <!-- Front (German Side) -->
                 <div class="card-front">
+                    <div class="card-content">
+                        <h1 id="back-word" class="word"></h1>
+                        <p id="back-sentence" class="sentence"></p>
+                    </div>
+                    <div class="card-controls">
+                        <button class="flip-btn-front">Flip card →</button>
+                    </div>
+                </div>
+
+                <!-- Back (English Side) -->
+                <div class="card-back">
                     <div class="card-content">
                         <p id="front-word" class="word"></p>
                         <p id="front-sentence" class="sentence"></p>
@@ -22,17 +33,6 @@
                     </div>
                     <div class="card-controls">
                         <button id="done-btn">Mark as done</button>
-                        <button class="flip-btn-front">Flip card →</button>
-                    </div>
-                </div>
-
-                <!-- Back (German Side) -->
-                <div class="card-back">
-                    <div class="card-content">
-                        <h1 id="back-word" class="word"></h1>
-                        <p id="back-sentence" class="sentence"></p>
-                    </div>
-                    <div class="card-controls">
                         <button class="flip-btn-back">← Flip card</button>
                     </div>
                 </div>
