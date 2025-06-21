@@ -2,29 +2,37 @@ document.addEventListener('DOMContentLoaded', () => {
     const flashcard = document.querySelector('.flashcard');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
-    const flashcardContainer = document.getElementById('flashcard-container');
     const doneBtn = document.getElementById('done-btn');
+    const flipBtnFront = document.querySelector('.flip-btn-front');
+    const flipBtnBack = document.querySelector('.flip-btn-back');
 
     // Card face elements
-    const frontHeader = document.getElementById('front-header');
-    const frontSubheader = document.getElementById('front-subheader');
-    const backHeader = document.getElementById('back-header');
-    const backSubheader = document.getElementById('back-subheader');
-    const backAdditional = document.getElementById('back-additional');
+    const frontWord = document.getElementById('front-word');
+    const frontSentence = document.getElementById('front-sentence');
+    const frontQuote = document.getElementById('front-quote');
+    const backWord = document.getElementById('back-word');
+    const backSentence = document.getElementById('back-sentence');
+    
+    // Card state elements
+    const cardFront = document.querySelector('.card-front');
 
     let flashcards = [];
     let currentCardIndex = 0;
     let doneCards = JSON.parse(localStorage.getItem('doneCards')) || [];
 
-    flashcardContainer.addEventListener('click', () => {
+    function flipCard() {
         flashcard.classList.toggle('flipped');
-    });
+    }
+
+    flipBtnFront.addEventListener('click', flipCard);
+    flipBtnBack.addEventListener('click', flipCard);
 
     function parseCSV(text) {
         const lines = text.split('\n').filter(line => line.trim() !== '');
+        if (lines.length < 2) return [];
         const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
         const data = lines.slice(1).map(line => {
-            const values = line.split(',').map(v => v.trim().replace(/"/g, ''));
+            const values = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g).map(v => v.trim().replace(/"/g, ''));
             let obj = {};
             headers.forEach((header, i) => {
                 obj[header] = values[i];
@@ -44,31 +52,35 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } catch (error) {
             console.error('Error loading flashcards:', error);
-            frontHeader.textContent = 'Could not load flashcards.';
+            frontWord.textContent = 'Could not load flashcards.';
         }
     }
 
     function showCard(index) {
         if (flashcards.length === 0) return;
-        flashcard.classList.remove('flipped');
+        // Reset flip state for new card
+        if (flashcard.classList.contains('flipped')) {
+            flashcard.classList.remove('flipped');
+        }
         
         const cardData = flashcards[index];
-        const uniqueId = cardData['front-header'];
+        const uniqueId = cardData['front_word'];
 
-        frontHeader.textContent = uniqueId;
-        frontSubheader.textContent = cardData['front-subheader'];
-        backHeader.textContent = cardData['back-header'];
-        backSubheader.textContent = cardData['back-subheader'];
-        backAdditional.textContent = cardData['back-additional'];
-
+        frontWord.textContent = uniqueId;
+        frontSentence.textContent = cardData['front_sentence'];
+        frontQuote.textContent = cardData['front_quote'];
+        backWord.textContent = cardData['back_word'];
+        backSentence.textContent = cardData['back_sentence'];
+        
+        // Update done status
         if (doneCards.includes(uniqueId)) {
-            flashcard.classList.add('done');
-            doneBtn.textContent = 'Mark as Un-done';
-            doneBtn.classList.add('undone');
+            cardFront.classList.add('done');
+            doneBtn.classList.add('done');
+            doneBtn.textContent = '✓ Marked as done';
         } else {
-            flashcard.classList.remove('done');
-            doneBtn.textContent = 'Mark as Done';
-            doneBtn.classList.remove('undone');
+            cardFront.classList.remove('done');
+            doneBtn.classList.remove('done');
+            doneBtn.textContent = 'Mark as done';
         }
 
         updateButtons();
@@ -97,23 +109,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     doneBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const uniqueId = flashcards[currentCardIndex]['front-header'];
+        const uniqueId = flashcards[currentCardIndex]['front_word'];
         const isDone = doneCards.includes(uniqueId);
 
         if (isDone) {
-            // It's done, so un-mark it
             doneCards = doneCards.filter(id => id !== uniqueId);
-            flashcard.classList.remove('done');
-            doneBtn.textContent = 'Mark as Done';
-            doneBtn.classList.remove('undone');
+            cardFront.classList.remove('done');
+            doneBtn.classList.remove('done');
+            doneBtn.textContent = 'Mark as done';
         } else {
-            // It's not done, so mark it
             doneCards.push(uniqueId);
-            flashcard.classList.add('done');
-            doneBtn.textContent = 'Mark as Un-done';
-            doneBtn.classList.add('undone');
+            cardFront.classList.add('done');
+            doneBtn.classList.add('done');
+            doneBtn.textContent = '✓ Marked as done';
         }
-        // Save the updated list to localStorage
         localStorage.setItem('doneCards', JSON.stringify(doneCards));
     });
 

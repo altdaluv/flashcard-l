@@ -1,6 +1,5 @@
-front-header,front-subheader,back-header,back-subheader,back-additional
-"Capital of France","European Countries","Paris","The City of Light","Known for its art, fashion, and culture."
-"JavaScript","Programming Languages","Dynamic Language","Runs in the browser","Originally created in 10 days by Brendan Eich."
-"Mitochondria","Cell Biology","Powerhouse of the Cell","Cellular Respiration","Generates most of the cell's supply of adenosine triphosphate (ATP)."
-"H2O","Chemical Formulas","Water","Dihydrogen Monoxide","The only common substance to exist as a solid, liquid, and gas in nature."
-"The Sun","Our Solar System","A Star","Yellow Dwarf","It accounts for about 99.86% of the total mass of the Solar System." 
+front_word,front_sentence,front_quote,back_word,back_sentence
+"contemplate","She sat quietly to contemplate the meaning of the poem.",""He contemplated whether her cooking could actually be classified as a war crime."","nachdenken","Sie saß still da, um über die Bedeutung des Gedichts nachzudenken."
+"serendipity","The discovery of penicillin was a classic case of serendipity.",""Finding a twenty-dollar bill in my old coat was a delightful moment of serendipity."","Glücksfall","Die Entdeckung des Penicillins war ein klassischer Glücksfall."
+"ephemeral","The beauty of the cherry blossoms is ephemeral, lasting only a few days.",""He was a gamer, so he knew that all glory is ephemeral."","vergänglich","Die Schönheit der Kirschblüten ist vergänglich und dauert nur wenige Tage."
+"ubiquitous","Coffee shops have become ubiquitous in cities around the world.",""With the advent of smartphones, the internet is now ubiquitous."","allgegenwärtig","Cafés sind in Städten auf der ganzen Welt allgegenwärtig geworden." 

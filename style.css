@@ -1,126 +1,173 @@
+/* General Body & Fonts */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    background-color: #f0f2f5;
-    color: #1c1c1e;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* gray-100 */
+    margin: 0;
 }
 
+/* Card & Container */
 #flashcard-container {
     perspective: 1000px;
-    margin-bottom: 20px;
+    width: 320px;
+    height: 600px;
 }
 
 .flashcard {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.6s;
-    cursor: pointer;
+    transition: transform 0.7s;
 }
 
 .flashcard.flipped {
     transform: rotateY(180deg);
 }
 
-.card-inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 10px;
-}
-
 .card-front, .card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 1rem; /* rounded-2xl */
+    padding: 1.5rem; /* p-6 */
     box-sizing: border-box;
-}
-
-.card-front h2, .card-back h2 {
-    margin: 0;
-    font-size: 1.8rem;
-}
-
-.card-front p, .card-back p {
-    margin: 5px 0;
-    font-size: 1.2rem;
-    color: #6c6c70;
-}
-
-#back-additional {
-    font-size: 1rem;
-    margin-top: 15px;
-    font-style: italic;
-}
-
-.card-front {
-    background-color: #ffffff;
-}
-
-.card-back {
-    background-color: #f8f8f8;
-    transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.flashcard.done .card-front,
-.flashcard.done .card-back {
-    border: 3px solid #34c759; /* Apple Green */
+/* Front Card Styling */
+.card-front {
+    background-color: #f87171; /* red-400 */
+}
+
+.card-front.done {
+    background-color: #4ade80; /* green-400 */
+}
+
+.card-content {
+    text-align: left;
+    color: black;
+}
+
+.word {
+    font-family: serif;
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 600; /* font-semibold */
+    margin: 0;
+}
+
+.sentence {
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+.quote-block {
+    padding: 0.5rem 0 0.5rem 1rem; /* py-2 pl-4 */
+    border-left: 4px solid black;
+    margin: 1rem 0 0 0;
+}
+
+.quote-block blockquote {
+    font-family: serif;
+    font-style: italic;
+    color: #374151; /* gray-800 */
+    line-height: 1.375; /* leading-snug */
+    margin: 0;
+}
+
+
+/* Back Card Styling */
+.card-back {
+    background-color: #fcd34d; /* yellow-300 */
+    transform: rotateY(180deg);
+    align-items: center;
+    justify-content: center;
+}
+
+.card-back .card-content {
+    text-align: center;
+}
+
+.card-back .word {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 700; /* font-bold */
+}
+
+/* Controls & Buttons */
+.card-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem; /* gap-3 */
+    width: 100%;
 }
 
 button {
-    background-color: #007aff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    width: 12rem; /* w-48 */
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border-radius: 9999px; /* rounded-full */
+    font-weight: 600; /* font-semibold */
+    font-size: 0.875rem; /* text-sm */
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06); /* shadow-lg */
+    border: 1px solid black;
     cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-}
-
-#done-btn {
-    position: absolute;
-    bottom: 10px;
-    background-color: #5856d6; /* Apple Indigo */
-    padding: 5px 10px;
-    font-size: 14px;
-}
-
-#done-btn.undone {
-    background-color: #ff3b30; /* Apple Red */
+    background-color: white;
+    color: black;
 }
 
 button:hover {
-    background-color: #005ecb;
+    background-color: black;
+    color: white;
 }
 
-button:disabled {
-    background-color: #d1d1d6;
+#done-btn.done {
+    background-color: black;
+    color: white;
+}
+
+.flip-btn-front, .flip-btn-back {
+    background-color: transparent;
+}
+
+
+/* Navigation Arrows */
+.navigation-arrows {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    pointer-events: none; /* Pass clicks through */
+}
+
+#prev-btn, #next-btn {
+    pointer-events: all; /* Allow clicks on buttons */
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev-btn:disabled, #next-btn:disabled {
+    opacity: 0.3;
     cursor: not-allowed;
 } 
