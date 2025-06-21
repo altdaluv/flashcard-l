@@ -1,11 +1,6 @@
-Question,Answer
-"What is the capital of France?","Paris"
-"What is 2 + 2?","4"
-"What is the capital of Japan?","Tokyo"
-"What is the powerhouse of the cell?","Mitochondria"
-"What is the largest planet in our solar system?","Jupiter"
-"Who wrote 'To Kill a Mockingbird'?","Harper Lee"
-"What is the chemical symbol for water?","H2O"
-"How many continents are there?","7"
-"What is the speed of light?","299,792,458 meters per second"
-"Who painted the Mona Lisa?","Leonardo da Vinci" 
+front-header,front-subheader,back-header,back-subheader,back-additional
+"Capital of France","European Countries","Paris","The City of Light","Known for its art, fashion, and culture."
+"JavaScript","Programming Languages","Dynamic Language","Runs in the browser","Originally created in 10 days by Brendan Eich."
+"Mitochondria","Cell Biology","Powerhouse of the Cell","Cellular Respiration","Generates most of the cell's supply of adenosine triphosphate (ATP)."
+"H2O","Chemical Formulas","Water","Dihydrogen Monoxide","The only common substance to exist as a solid, liquid, and gas in nature."
+"The Sun","Our Solar System","A Star","Yellow Dwarf","It accounts for about 99.86% of the total mass of the Solar System." 

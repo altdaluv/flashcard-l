@@ -45,10 +45,30 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-front h2, .card-back h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.card-front p, .card-back p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #6c6c70;
+}
+
+#back-additional {
+    font-size: 1rem;
+    margin-top: 15px;
+    font-style: italic;
 }
 
 .card-front {

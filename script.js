@@ -1,11 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const questionEl = document.getElementById('question');
-    const answerEl = document.getElementById('answer');
     const flashcard = document.querySelector('.flashcard');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const flashcardContainer = document.getElementById('flashcard-container');
     const doneBtn = document.getElementById('done-btn');
+
+    // Card face elements
+    const frontHeader = document.getElementById('front-header');
+    const frontSubheader = document.getElementById('front-subheader');
+    const backHeader = document.getElementById('back-header');
+    const backSubheader = document.getElementById('back-subheader');
+    const backAdditional = document.getElementById('back-additional');
 
     let flashcards = [];
     let currentCardIndex = 0;
@@ -39,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } catch (error) {
             console.error('Error loading flashcards:', error);
-            questionEl.textContent = 'Could not load flashcards.';
+            frontHeader.textContent = 'Could not load flashcards.';
         }
     }
 
@@ -47,11 +52,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (flashcards.length === 0) return;
         flashcard.classList.remove('flipped');
         
-        const currentQuestion = flashcards[index].Question;
-        questionEl.textContent = currentQuestion;
-        answerEl.textContent = flashcards[index].Answer;
+        const cardData = flashcards[index];
+        const uniqueId = cardData['front-header'];
 
-        if (doneCards.includes(currentQuestion)) {
+        frontHeader.textContent = uniqueId;
+        frontSubheader.textContent = cardData['front-subheader'];
+        backHeader.textContent = cardData['back-header'];
+        backSubheader.textContent = cardData['back-subheader'];
+        backAdditional.textContent = cardData['back-additional'];
+
+        if (doneCards.includes(uniqueId)) {
             flashcard.classList.add('done');
             doneBtn.textContent = 'Mark as Un-done';
             doneBtn.classList.add('undone');
@@ -87,18 +97,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     doneBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const currentQuestion = flashcards[currentCardIndex].Question;
-        const isDone = doneCards.includes(currentQuestion);
+        const uniqueId = flashcards[currentCardIndex]['front-header'];
+        const isDone = doneCards.includes(uniqueId);
 
         if (isDone) {
             // It's done, so un-mark it
-            doneCards = doneCards.filter(q => q !== currentQuestion);
+            doneCards = doneCards.filter(id => id !== uniqueId);
             flashcard.classList.remove('done');
             doneBtn.textContent = 'Mark as Done';
             doneBtn.classList.remove('undone');
         } else {
             // It's not done, so mark it
-            doneCards.push(currentQuestion);
+            doneCards.push(uniqueId);
             flashcard.classList.add('done');
             doneBtn.textContent = 'Mark as Un-done';
             doneBtn.classList.add('undone');
