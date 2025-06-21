@@ -17,10 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Card state elements
     const cardBack = document.querySelector('.card-back');
     const themeColorMeta = document.getElementById('theme-color');
+    const studyModeToggle = document.getElementById('study-mode-toggle');
 
-    let flashcards = [];
+    let allFlashcards = [];
+    let displayedFlashcards = [];
     let currentCardIndex = 0;
     let doneCards = JSON.parse(localStorage.getItem('doneCards')) || [];
+    let isReviewingAll = false;
 
     function updateThemeColor() {
         const isFlipped = cardInner.classList.contains('flipped');
@@ -47,6 +50,27 @@ document.addEventListener('DOMContentLoaded', () => {
     flipBtnFront.addEventListener('click', flipCard);
     flipBtnBack.addEventListener('click', flipCard);
 
+    function filterAndDisplayCards() {
+        isReviewingAll = studyModeToggle.checked;
+        if (isReviewingAll) {
+            displayedFlashcards = allFlashcards;
+        } else {
+            displayedFlashcards = allFlashcards.filter(card => !doneCards.includes(card.front_word));
+        }
+        
+        // If the filtered list is empty, show a message or handle it gracefully
+        if (displayedFlashcards.length === 0) {
+            // This is a good place to add a "You've learned everything!" message
+            // For now, we'll just show the full list again to avoid a blank screen
+            if (!isReviewingAll) {
+                displayedFlashcards = allFlashcards;
+            }
+        }
+        
+        currentCardIndex = 0;
+        showCard(currentCardIndex);
+    }
+
     function parseCSV(text) {
         const lines = text.split('\n').filter(line => line.trim() !== '');
         if (lines.length < 2) return [];
@@ -66,9 +90,9 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('flashcards.csv');
             const csvData = await response.text();
-            flashcards = parseCSV(csvData);
-            if (flashcards.length > 0) {
-                showCard(currentCardIndex);
+            allFlashcards = parseCSV(csvData);
+            if (allFlashcards.length > 0) {
+                filterAndDisplayCards();
             }
         } catch (error) {
             console.error('Error loading flashcards:', error);
@@ -77,13 +101,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showCard(index) {
-        if (flashcards.length === 0) return;
-        // Reset flip state for new card
-        if (cardInner.classList.contains('flipped')) {
-            cardInner.classList.remove('flipped');
+        if (displayedFlashcards.length === 0) {
+            // Handle case where there are no cards to show
+            frontWord.textContent = 'All cards learned! Toggle "Review All" to see them again.';
+            backWord.textContent = 'Congratulations!';
+            // You might want to hide other elements here
+            updateButtons();
+            return;
         }
         
-        const cardData = flashcards[index];
+        const cardData = displayedFlashcards[index];
         const uniqueId = cardData['front_word'];
 
         frontWord.textContent = uniqueId;
@@ -109,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateButtons() {
         prevBtn.disabled = currentCardIndex === 0;
-        nextBtn.disabled = currentCardIndex === flashcards.length - 1;
+        nextBtn.disabled = currentCardIndex === displayedFlashcards.length - 1;
     }
 
     prevBtn.addEventListener('click', (e) => {
@@ -122,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nextBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        if (currentCardIndex < flashcards.length - 1) {
+        if (currentCardIndex < displayedFlashcards.length - 1) {
             currentCardIndex++;
             showCard(currentCardIndex);
         }
@@ -130,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     doneBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const uniqueId = flashcards[currentCardIndex]['front_word'];
+        const uniqueId = displayedFlashcards[currentCardIndex]['front_word'];
         const isDone = doneCards.includes(uniqueId);
 
         if (isDone) {
@@ -148,6 +175,12 @@ document.addEventListener('DOMContentLoaded', () => {
         updateThemeColor();
         if (navigator.vibrate) {
             navigator.vibrate(50);
+        }
+
+        // If not in review mode, removing the last card requires re-filtering
+        if (!isReviewingAll) {
+            // A brief delay allows the user to see the "done" animation
+            setTimeout(filterAndDisplayCards, 300);
         }
     });
 
@@ -174,5 +207,6 @@ document.addEventListener('DOMContentLoaded', () => {
         handleSwipe();
     }, { passive: true });
 
+    studyModeToggle.addEventListener('change', filterAndDisplayCards);
     loadFlashcards();
 }); 
