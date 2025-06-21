@@ -15,13 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Card state elements
     const cardBack = document.querySelector('.card-back');
+    const themeColorMeta = document.getElementById('theme-color');
 
     let flashcards = [];
     let currentCardIndex = 0;
     let doneCards = JSON.parse(localStorage.getItem('doneCards')) || [];
 
+    function updateThemeColor() {
+        const isFlipped = cardInner.classList.contains('flipped');
+        const isDone = cardBack.classList.contains('done');
+
+        if (isFlipped) {
+            themeColorMeta.content = isDone ? '#4ade80' : '#f87171';
+        } else {
+            themeColorMeta.content = '#fcd34d';
+        }
+    }
+
     function flipCard() {
         cardInner.classList.toggle('flipped');
+        updateThemeColor();
     }
 
     flipBtnFront.addEventListener('click', flipCard);
@@ -84,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         updateButtons();
+        updateThemeColor();
     }
 
     function updateButtons() {
@@ -124,6 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
             doneBtn.textContent = 'Marked as done';
         }
         localStorage.setItem('doneCards', JSON.stringify(doneCards));
+        updateThemeColor();
     });
 
     loadFlashcards();
