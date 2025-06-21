@@ -59,6 +59,10 @@ body {
 .card-content {
     text-align: left;
     color: black;
+    flex-grow: 1; /* Allow content to take up space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .word {

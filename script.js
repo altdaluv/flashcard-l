@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (doneCards.includes(uniqueId)) {
             cardFront.classList.add('done');
             doneBtn.classList.add('done');
-            doneBtn.textContent = '✓ Marked as done';
+            doneBtn.textContent = 'Marked as done';
         } else {
             cardFront.classList.remove('done');
             doneBtn.classList.remove('done');
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             doneCards.push(uniqueId);
             cardFront.classList.add('done');
             doneBtn.classList.add('done');
-            doneBtn.textContent = '✓ Marked as done';
+            doneBtn.textContent = 'Marked as done';
         }
         localStorage.setItem('doneCards', JSON.stringify(doneCards));
     });
