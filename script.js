@@ -24,12 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateThemeColor() {
         const isFlipped = cardInner.classList.contains('flipped');
         const isDone = cardBack.classList.contains('done');
+        let newColor;
 
         if (isFlipped) {
-            themeColorMeta.content = isDone ? '#4ade80' : '#f87171';
+            newColor = isDone ? '#4ade80' : '#f87171';
         } else {
-            themeColorMeta.content = '#fcd34d';
+            newColor = '#fcd34d';
         }
+        themeColorMeta.content = newColor;
+        document.body.style.backgroundColor = newColor;
     }
 
     function flipCard() {
