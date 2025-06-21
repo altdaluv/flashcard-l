@@ -5,9 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const flashcardContainer = document.getElementById('flashcard-container');
+    const doneBtn = document.getElementById('done-btn');
 
     let flashcards = [];
     let currentCardIndex = 0;
+    let doneCards = JSON.parse(localStorage.getItem('doneCards')) || [];
 
     flashcardContainer.addEventListener('click', () => {
         flashcard.classList.toggle('flipped');
@@ -44,8 +46,17 @@ document.addEventListener('DOMContentLoaded', () => {
     function showCard(index) {
         if (flashcards.length === 0) return;
         flashcard.classList.remove('flipped');
-        questionEl.textContent = flashcards[index].Question;
+        
+        const currentQuestion = flashcards[index].Question;
+        questionEl.textContent = currentQuestion;
         answerEl.textContent = flashcards[index].Answer;
+
+        if (doneCards.includes(currentQuestion)) {
+            flashcard.classList.add('done');
+        } else {
+            flashcard.classList.remove('done');
+        }
+
         updateButtons();
     }
 
@@ -67,6 +78,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentCardIndex < flashcards.length - 1) {
             currentCardIndex++;
             showCard(currentCardIndex);
+        }
+    });
+
+    doneBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const currentQuestion = flashcards[currentCardIndex].Question;
+        if (!doneCards.includes(currentQuestion)) {
+            doneCards.push(currentQuestion);
+            localStorage.setItem('doneCards', JSON.stringify(doneCards));
+            flashcard.classList.add('done');
         }
     });
 

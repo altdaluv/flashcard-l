@@ -58,6 +58,15 @@ body {
 .card-back {
     background-color: #f8f8f8;
     transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcard.done .card-front,
+.flashcard.done .card-back {
+    border: 3px solid #34c759; /* Apple Green */
 }
 
 button {
@@ -73,6 +82,14 @@ button {
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s;
+}
+
+#done-btn {
+    position: absolute;
+    bottom: 10px;
+    background-color: #5856d6; /* Apple Indigo */
+    padding: 5px 10px;
+    font-size: 14px;
 }
 
 button:hover {
