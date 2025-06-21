@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const flashcard = document.querySelector('.flashcard');
+    const cardInner = document.querySelector('.card-inner');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const doneBtn = document.getElementById('done-btn');
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let doneCards = JSON.parse(localStorage.getItem('doneCards')) || [];
 
     function flipCard() {
-        flashcard.classList.toggle('flipped');
+        cardInner.classList.toggle('flipped');
     }
 
     flipBtnFront.addEventListener('click', flipCard);
@@ -59,8 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function showCard(index) {
         if (flashcards.length === 0) return;
         // Reset flip state for new card
-        if (flashcard.classList.contains('flipped')) {
-            flashcard.classList.remove('flipped');
+        if (cardInner.classList.contains('flipped')) {
+            cardInner.classList.remove('flipped');
         }
         
         const cardData = flashcards[index];

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'flashcard-app-cache-v5';
+const CACHE_NAME = 'flashcard-app-cache-v6';
 const urlsToCache = [
     '/',
     '/index.html',
