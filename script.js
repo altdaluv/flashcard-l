@@ -17,13 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Card state elements
     const cardBack = document.querySelector('.card-back');
     const themeColorMeta = document.getElementById('theme-color');
-    const studyModeToggle = document.getElementById('study-mode-toggle');
 
     let allFlashcards = [];
     let displayedFlashcards = [];
     let currentCardIndex = 0;
     let doneCards = JSON.parse(localStorage.getItem('doneCards')) || [];
-    let isReviewingAll = false;
 
     function updateThemeColor() {
         const isFlipped = cardInner.classList.contains('flipped');
@@ -51,22 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     flipBtnBack.addEventListener('click', flipCard);
 
     function filterAndDisplayCards() {
-        isReviewingAll = studyModeToggle.checked;
-        if (isReviewingAll) {
-            displayedFlashcards = allFlashcards;
-        } else {
-            displayedFlashcards = allFlashcards.filter(card => !doneCards.includes(card.front_word));
-        }
-        
-        // If the filtered list is empty, show a message or handle it gracefully
-        if (displayedFlashcards.length === 0) {
-            // This is a good place to add a "You've learned everything!" message
-            // For now, we'll just show the full list again to avoid a blank screen
-            if (!isReviewingAll) {
-                displayedFlashcards = allFlashcards;
-            }
-        }
-        
+        displayedFlashcards = allFlashcards.filter(card => !doneCards.includes(card.front_word));
         currentCardIndex = 0;
         showCard(currentCardIndex);
     }
@@ -177,11 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
             navigator.vibrate(50);
         }
 
-        // If not in review mode, removing the last card requires re-filtering
-        if (!isReviewingAll) {
-            // A brief delay allows the user to see the "done" animation
-            setTimeout(filterAndDisplayCards, 300);
-        }
+        // A brief delay allows the user to see the "done" animation before it's removed
+        setTimeout(filterAndDisplayCards, 300);
     });
 
     // --- Swipe Gestures ---
@@ -207,6 +187,5 @@ document.addEventListener('DOMContentLoaded', () => {
         handleSwipe();
     }, { passive: true });
 
-    studyModeToggle.addEventListener('change', filterAndDisplayCards);
     loadFlashcards();
 }); 
