@@ -1,6 +1,300 @@
-front_word,front_sentence,front_quote,back_word,back_sentence
-"analyze","Scientists analyze data to make discoveries.","Looks and sounds very similar to the English word.","analysieren","Wissenschaftler analysieren Daten, um Entdeckungen zu machen."
-"avoid","He tried to avoid traffic by taking a back road.","Starts with 'ver-', a common prefix for verbs; think of changing or preventing something.","vermeiden","Er versuchte, den Verkehr zu vermeiden, indem er eine Nebenstraße nahm."
-"believe","She couldn't believe her eyes when she saw the surprise.","Common German verb for believing or thinking something is true.","glauben","Sie konnte ihren Augen nicht trauen, als sie die Überraschung sah."
-"explain","Can you explain how this machine works?","Related to 'klar' (clear), used when making something understandable.","erklären","Kannst du erklären, wie diese Maschine funktioniert?"
-"forget","Don't forget to lock the door.","Starts with 'ver-', often used with verbs involving mistakes or changes.","vergessen","Vergiss nicht, die Tür abzuschließen."
+front_sentence,front_word,front_quote,back_word,back_sentence
+Cappuccino e Ciri: Una storia di due gatti birichini a Berlino,gatti birichini,"gatti birichini fa rima con freche Katzen, ricorda questa scena!",freche Katzen,Cappuccino und Ciri: Eine Geschichte zweier frecher Katzen.
+Cappuccino e Ciri eran due gatti astuti,gatti astuti,"gatti astuti fa rima con listige Katzen, ricorda questa scena!",listige Katzen,Cappuccino und Ciri waren zwei listige Katzen.
+Che a Wedding spuntavan tra luci e minuti.,tra luci e minuti,"tra luci e minuti fa rima con zwischen Lichtern und Minuten, ricorda questa scena!",zwischen Lichtern und Minuten,Die in Wedding zwischen Lichtern und Minuten auftauchten.
+"Un quartiere di Berlino, vivace e disteso,",quartiere di Berlino,"quartiere di Berlino fa rima con Stadtteil von Berlin, ricorda questa scena!",Stadtteil von Berlin,"Ein Stadtteil von Berlin, lebendig und entspannt."
+Testimone di scherzi in ogni suo paese.,Testimone di scherzi,"Testimone di scherzi fa rima con Zeuge von Streichen, ricorda questa scena!",Zeuge von Streichen,Zeuge von Streichen in jedem seiner Länder.
+"All’alba salivano al suon dell’U-Bahn,",al suon dell’U-Bahn,"al suon dell’U-Bahn fa rima con zum Klang der U-Bahn, ricorda questa scena!",zum Klang der U-Bahn,Bei Sonnenaufgang stiegen sie zum Klang der U-Bahn ein.
+E sparivano poi con il calar del gran.,calar del gran,"calar del gran fa rima con Sonnenuntergang, ricorda questa scena!",Sonnenuntergang,Und verschwanden dann bei Sonnenuntergang.
+"Il fornaio, il sarto, il cuoco e il droghiere —",il droghiere,"il droghiere fa rima con der Drogist, ricorda questa scena!",der Drogist,"Der Bäcker, der Schneider, der Koch und der Drogist –"
+Tutti han visto uno scherzo o un loro piacere.,piacere,"piacere fa rima con Vergnügen, ricorda questa scena!",Vergnügen,Alle haben einen Streich oder ein Vergnügen gesehen.
+"Venti scherzetti — ve li mostriamo,",scherzetti,"scherzetti fa rima con Streiche, ricorda questa scena!",Streiche,Zwanzig Streiche – wir zeigen sie euch.
+"Da tetti a fiumiciattoli, ve li raccontiamo.",tetti a fiumiciattoli,"tetti a fiumiciattoli fa rima con Dächern bis zu Bächlein, ricorda questa scena!",Dächern bis zu Bächlein,"Von Dächern bis zu Bächlein, wir erzählen sie euch."
+Primo Scherzo – Il Furto in Cucina,Furto in Cucina,"Furto in Cucina fa rima con Diebstahl in der Küche, ricorda questa scena!",Diebstahl in der Küche,Erster Streich – Der Diebstahl in der Küche.
+"In un attico presso Leopoldplatz,",attico presso Leopoldplatz,"attico presso Leopoldplatz fa rima con Dachgeschoss bei der Leopoldplatz, ricorda questa scena!",Dachgeschoss bei der Leopoldplatz,In einem Dachgeschoss bei der Leopoldplatz.
+Due gatti han notato dei trote-smazz.,trote-smazz,"trote-smazz fa rima con Forellen-Schmaus, ricorda questa scena!",Forellen-Schmaus,Zwei Katzen bemerkten einen Forellen-Schmaus.
+"Cappuccino annusò il buon pesce arrostito,",pesce arrostito,"pesce arrostito fa rima con gebratener Fisch, ricorda questa scena!",gebratener Fisch,Cappuccino roch den gebratenen Fisch.
+"Mentre Ciri girava, lesto e spedito.","girava, lesto e spedito","girava, lesto e spedito fa rima con drehte sich flink und zügig, ricorda questa scena!",drehte sich flink und zügig,Während Ciri sich flink und zügig drehte.
+"Son balzati sul tavolo con gran destrezza,",balzati sul tavolo,"balzati sul tavolo fa rima con auf den Tisch gesprungen, ricorda questa scena!",auf den Tisch gesprungen,Sie sind mit großer Geschicklichkeit auf den Tisch gesprungen.
+Mandando posate giù con chiarezza.,Mandando posate giù,"Mandando posate giù fa rima con Besteck zu Boden geschickt, ricorda questa scena!",Besteck zu Boden geschickt,Sie ließen Besteck deutlich zu Boden fallen.
+"Con un sol balzo, la trota sparì,",la trota sparì,"la trota sparì fa rima con die Forelle verschwand, ricorda questa scena!",die Forelle verschwand,Mit einem Sprung verschwand die Forelle.
+"E via fino all’alba, così finì.",fino all’alba,"fino all’alba fa rima con bis zum Morgengrauen, ricorda questa scena!",bis zum Morgengrauen,"Und weiter bis zum Morgengrauen, so endete es."
+"Il padrone trovò la cucina devastata,",cucina devastata,"cucina devastata fa rima con verwüstete Küche, ricorda questa scena!",verwüstete Küche,Der Hausherr fand die Küche verwüstet vor.
+"""Il mio pranzo!"" gridò, voce disperata.",voce disperata,"voce disperata fa rima con verzweifelte Stimme, ricorda questa scena!",verzweifelte Stimme,"„Mein Mittagessen!“, rief er mit verzweifelter Stimme."
+"Ma sul tappeto, con zampe di pesce,",zampe di pesce,"zampe di pesce fa rima con Pfoten voller Fisch, ricorda questa scena!",Pfoten voller Fisch,"Aber auf dem Teppich, mit Pfoten voller Fisch,"
+Due gatti dormivano con pancia felice.,pancia felice,"pancia felice fa rima con glücklicher Bauch, ricorda questa scena!",glücklicher Bauch,Schliefen zwei Katzen mit glücklichem Bauch.
+Secondo Scherzo – Trappola in Lavanderia,Trappola in Lavanderia,"Trappola in Lavanderia fa rima con Falle in der Waschküche, ricorda questa scena!",Falle in der Waschküche,Zweiter Streich – Falle in der Waschküche.
+"Su Müllerstraße, tra vestiti e panni,",Müllerstraße,"Müllerstraße fa rima con Müllerstraße, ricorda questa scena!",Müllerstraße,"Auf der Müllerstraße, zwischen Kleidung und Wäsche."
+Ciri guidò Cappuccino tra gli inganni.,guidò Cappuccino,"guidò Cappuccino fa rima con führte Cappuccino, ricorda questa scena!",führte Cappuccino,Ciri führte Cappuccino durch die Fallen.
+"Le lavatrici giravano in fretta,",lavatrici giravano in fretta,"lavatrici giravano in fretta fa rima con Waschmaschinen drehten sich schnell, ricorda questa scena!",Waschmaschinen drehten sich schnell,Die Waschmaschinen drehten sich schnell.
+Ma i gatti saltavano — una vera vendetta.,gatti saltavano,"gatti saltavano fa rima con Katzen sprangen, ricorda questa scena!",Katzen sprangen,Aber die Katzen sprangen – eine wahre Rache.
+"Strappavano asciugamani, graffiavano jeans,",graffiavano jeans,"graffiavano jeans fa rima con kratzten Jeans, ricorda questa scena!",kratzten Jeans,"Sie rissen Handtücher, kratzten Jeans."
+Si infilavano dietro tra mille stridii.,dietro tra mille stridii,"dietro tra mille stridii fa rima con hinter tausend Quietschen, ricorda questa scena!",hinter tausend Quietschen,Sie schlichen sich hinter tausend Quietschen.
+"""Il mio vestito preferito!"" una donna urlò,",vestito preferito,"vestito preferito fa rima con Lieblingskleid, ricorda questa scena!",Lieblingskleid,"„Mein Lieblingskleid!“, rief eine Frau."
+Ma la gonna a calzino si ridusse però.,gonna a calzino,"gonna a calzino fa rima con sockenartiger Rock, ricorda questa scena!",sockenartiger Rock,Aber der sockenartige Rock wurde zerrissen.
+"Fuggiron via con fili intrecciati,",fili intrecciati,"fili intrecciati fa rima con verflochtene Fäden, ricorda questa scena!",verflochtene Fäden,Sie flohen mit verflochtenen Fäden.
+"Due ladri pelosi, ben coordinati.",ladri pelosi,"ladri pelosi fa rima con pelzige Diebe, ricorda questa scena!",pelzige Diebe,"Zwei pelzige Diebe, gut koordiniert."
+Terzo Scherzo – Dramma Döner,Dramma Döner,"Dramma Döner fa rima con Döner-Drama, ricorda questa scena!",Döner-Drama,Dritter Streich – Döner-Drama.
+"Fuori un locale su Seestraße via,",locale su Seestraße,"locale su Seestraße fa rima con Lokal an der Seestraße, ricorda questa scena!",Lokal an der Seestraße,Vor einem Lokal an der Seestraße.
+I gatti sentiron carne con allegria.,carne con allegria,"carne con allegria fa rima con Fleisch mit Freude, ricorda questa scena!",Fleisch mit Freude,Die Katzen rochen Fleisch mit Freude.
+"Un uomo si sedette con panini in mano,",panini in mano,"panini in mano fa rima con Brötchen in der Hand, ricorda questa scena!",Brötchen in der Hand,Ein Mann setzte sich mit Brötchen in der Hand.
+"Ed ecco il piano, tutto molto urbano.",piano urbano,"piano urbano fa rima con städtischer Plan, ricorda questa scena!",städtischer Plan,Und da war der Plan – ganz urban.
+"Ciri distrasse con salto ben fatto,",salto ben fatto,"salto ben fatto fa rima con gut gemachter Sprung, ricorda questa scena!",gut gemachter Sprung,Ciri lenkte ab mit einem gut gemachten Sprung.
+Cappuccino colse il kebab d’un tratto.,colse il kebab,"colse il kebab fa rima con griff sich den Kebab, ricorda questa scena!",griff sich den Kebab,Cappuccino griff sich den Kebab auf einmal.
+"Scapparono via con la carne intera,",carne intera,"carne intera fa rima con ganzen Fleisch, ricorda questa scena!",ganzen Fleisch,Sie rannten mit dem ganzen Fleisch davon.
+Lasciando cipolla — beffa sincera.,cipolla,"cipolla fa rima con Zwiebel, ricorda questa scena!",Zwiebel,Nur die Zwiebel blieb zurück – ein echter Streich.
+"""Era il mio pranzo!"" l’uomo gridò,",pranzo,"pranzo fa rima con Mittagessen, ricorda questa scena!",Mittagessen,"„Das war mein Mittagessen!“, rief der Mann."
+Ma i gatti già lontani — cruch e crò.,già lontani,"già lontani fa rima con schon weit weg, ricorda questa scena!",schon weit weg,Aber die Katzen waren schon weit weg – cruch und crò.
+Quarto Scherzo – Schizzi al Parco,Schizzi al Parco,"Schizzi al Parco fa rima con Spritzer im Park, ricorda questa scena!",Spritzer im Park,Vierter Streich – Spritzer im Park.
+"A Schillerpark, tra erbe e colori,",Schillerpark,"Schillerpark fa rima con Schillerpark, ricorda questa scena!",Schillerpark,"Im Schillerpark, zwischen Kräutern und Farben."
+I gatti inseguivano anatre e odori.,inseguivano anatre,"inseguivano anatre fa rima con verfolgten Enten, ricorda questa scena!",verfolgten Enten,Die Katzen verfolgten Enten und Gerüche.
+"Correvano intorno alla fontana tonda,",fontana tonda,"fontana tonda fa rima con runder Brunnen, ricorda questa scena!",runder Brunnen,Sie rannten um den runden Brunnen.
+Finché Ciri cadde con gran seconda.,cadde con gran seconda,"cadde con gran seconda fa rima con fiel mit einem großen Platsch, ricorda questa scena!",fiel mit einem großen Platsch,Bis Ciri mit einem großen Platsch fiel.
+"Cappuccino rise, tuffandosi lì,",tuffandosi,"tuffandosi fa rima con hinterher sprang, ricorda questa scena!",hinterher sprang,Cappuccino lachte und sprang hinterher.
+E l’acqua volò come un gran spruzzi.,acqua volò,"acqua volò fa rima con Wasser spritzte, ricorda questa scena!",Wasser spritzte,Das Wasser spritzte hoch empor.
+"I bimbi gridavano — tra gioia e paura,",bimbi gridavano,"bimbi gridavano fa rima con Kinder schrien, ricorda questa scena!",Kinder schrien,Die Kinder schrien – zwischen Freude und Angst.
+Uno spettacolo d’acqua e natura.,spettacolo d’acqua,"spettacolo d’acqua fa rima con Wasserschauspiel, ricorda questa scena!",Wasserschauspiel,Ein Wasserschauspiel aus Wasser und Natur.
+"Una guardia corse con scarpa bagnata,",guardia corse,"guardia corse fa rima con Wächter rannte, ricorda questa scena!",Wächter rannte,Ein Wächter rannte mit nassem Schuh.
+“Fuori di qui!” — Ma la fuga era già attuata.,fuga era già attuata,"fuga era già attuata fa rima con Flucht war bereits erfolgt, ricorda questa scena!",Flucht war bereits erfolgt,„Raus hier!“ – aber die Flucht war bereits erfolgt.
+Quinto Scherzo – Rapina al Chiosco,Rapina al Chiosco,"Rapina al Chiosco fa rima con Raub am Kiosk, ricorda questa scena!",Raub am Kiosk,Fünfter Streich – Raub am Kiosk.
+"Su Amsterdamer Straße, là nascosto,",Amsterdamer Straße,"Amsterdamer Straße fa rima con Amsterdamer Straße, ricorda questa scena!",Amsterdamer Straße,"An der Amsterdamer Straße, dort versteckt."
+Un chiosco vendeva dolce e arrosto.,chiosco vendeva,"chiosco vendeva fa rima con Kiosk verkaufte, ricorda questa scena!",Kiosk verkaufte,Ein Kiosk verkaufte Süßes und Gebratenes.
+"Cappuccino salì sul banco alto,",salì sul banco alto,"salì sul banco alto fa rima con auf den hohen Tresen, ricorda questa scena!",auf den hohen Tresen,Cappuccino stieg auf den hohen Tresen.
+Ciri invece andava dritto all’assalto.,dritto all’assalto,"dritto all’assalto fa rima con direkt zum Angriff, ricorda questa scena!",direkt zum Angriff,Ciri stürmte direkt zum Angriff.
+"Le caramelle caddero a terra,",caramelle caddero,"caramelle caddero fa rima con Bonbons fielen, ricorda questa scena!",Bonbons fielen,Die Bonbons fielen auf den Boden.
+Lui le leccava con gusto e sferra.,leccava con gusto,"leccava con gusto fa rima con leckte genüsslich, ricorda questa scena!",leckte genüsslich,Er leckte sie genüsslich auf.
+"Il venditore, scopa in mano,",scopa in mano,"scopa in mano fa rima con Besen in der Hand, ricorda questa scena!",Besen in der Hand,Der Verkäufer mit dem Besen in der Hand.
+Scivolò su zucchero: gesto vano.,su zucchero,"su zucchero fa rima con auf Zucker, ricorda questa scena!",auf Zucker,Er rutschte auf Zucker aus – ein vergeblicher Versuch.
+"Via scapparon con gomme attaccate,",gomme attaccate,"gomme attaccate fa rima con klebende Kaugummis, ricorda questa scena!",klebende Kaugummis,Mit klebenden Kaugummis an den Pfoten.
+Alle zampe e baffi — dolce e beate!,zampe e baffi,"zampe e baffi fa rima con Pfoten und Schnurrhaare, ricorda questa scena!",Pfoten und Schnurrhaare,An Pfoten und Schnurrhaaren – süß und glücklich.
+Sesto Scherzo – Follia al Museo,Follia al Museo,"Follia al Museo fa rima con Wahnsinn im Museum, ricorda questa scena!",Wahnsinn im Museum,Sechster Streich – Wahnsinn im Museum.
+"Al museo di storia naturale entrarono presto,",museo di storia naturale,"museo di storia naturale fa rima con Naturkundemuseum, ricorda questa scena!",Naturkundemuseum,Im Naturkundemuseum waren sie schon früh.
+Zitti e leggeri — come fa un gesto.,Zitti e leggeri,"Zitti e leggeri fa rima con leise und leicht, ricorda questa scena!",leise und leicht,Leise und leicht – wie eine Geste.
+"Tra ossa antiche e fossili strani,",ossa antiche,"ossa antiche fa rima con alte Knochen, ricorda questa scena!",alte Knochen,Zwischen alten Knochen und Fossilien.
+Ballavano i gatti come gitani.,gatti come gitani,"gatti come gitani fa rima con Katzen wie Zigeuner, ricorda questa scena!",Katzen wie Zigeuner,Die Katzen tanzten wie Zigeuner.
+"Ciri si acciambellò su un meteorite,",meteorite,"meteorite fa rima con Meteorit, ricorda questa scena!",Meteorit,Ciri rollte sich auf einem Meteoriten zusammen.
+Cappuccino su un mastodonte salì d’un vite.,mastodonte,"mastodonte fa rima con Mastodont, ricorda questa scena!",Mastodont,Cappuccino kletterte flink auf einen Mastodonten.
+"I turisti urlaron, il personale inseguì,",turisti urlaron,"turisti urlaron fa rima con Touristen schrien, ricorda questa scena!",Touristen schrien,"Die Touristen schrien, das Personal verfolgte sie."
+Ma quei due gatti — spariti così.,spariti così,"spariti così fa rima con einfach verschwunden, ricorda questa scena!",einfach verschwunden,Doch diese zwei Katzen – einfach verschwunden.
+"Solo impronte restaron da raccontare,",impronte restaron,"impronte restaron fa rima con nur Spuren blieben, ricorda questa scena!",nur Spuren blieben,"Nur Spuren blieben, um die Geschichte zu erzählen."
+I berlinesi — a rider e tramandare.,berlinesi,"berlinesi fa rima con Berliner, ricorda questa scena!",Berliner,Die Berliner – lachten und erzählten weiter.
+Settimo Scherzo – Späti Sottosopra,Späti Sottosopra,"Späti Sottosopra fa rima con Späti auf dem Kopf, ricorda questa scena!",Späti auf dem Kopf,Siebter Streich – Späti auf dem Kopf.
+"Allo Späti su Osloer Straße andaron zitti,",Osloer Straße,"Osloer Straße fa rima con Osloer Straße, ricorda questa scena!",Osloer Straße,Im Späti an der Osloer Straße gingen sie leise hinein.
+Tra snack e bibite fresche nei dritti.,snack e bibite,"snack e bibite fa rima con Snacks und Getränke, ricorda questa scena!",Snacks und Getränke,Zwischen Snacks und kühlen Getränken.
+"Si infilaron dietro le patatine,",dietro le patatine,"dietro le patatine fa rima con hinter die Chips, ricorda questa scena!",hinter die Chips,Sie krochen hinter die Chips.
+Buttaron birre e scoperchiar pacchettine.,scoperchiar pacchettine,"scoperchiar pacchettine fa rima con Packungen geöffnet, ricorda questa scena!",Packungen geöffnet,Sie warfen Bier um und öffneten kleine Packungen.
+"Il commesso tornò — disastro totale,",disastro totale,"disastro totale fa rima con totales Chaos, ricorda questa scena!",totales Chaos,Der Verkäufer kehrte zurück – totales Chaos.
+"""Ancora voi? Mi sale il morale!""",mi sale il morale,"mi sale il morale fa rima con hebt meine Laune, ricorda questa scena!",hebt meine Laune,„Schon wieder ihr? Ihr hebt meine Laune!“
+"Fuggirono via come vento e brina,",vento e brina,"vento e brina fa rima con Wind und Raureif, ricorda questa scena!",Wind und Raureif,Sie flohen wie Wind und Raureif.
+Con bastoncini e un pezzo di caciottina.,pezzo di caciottina,"pezzo di caciottina fa rima con Stück Käse, ricorda questa scena!",Stück Käse,Mit Stäbchen und einem Stück Käse.
+Ottavo Scherzo – Tram Tattico,Tram Tattico,"Tram Tattico fa rima con Taktischer Tram, ricorda questa scena!",Taktischer Tram,Achter Streich – Taktischer Tram.
+"Saltarono sul tram M13 in silenzio,",tram M13 in silenzio,"tram M13 in silenzio fa rima con leise in die M13, ricorda questa scena!",leise in die M13,Sie sprangen leise in die M13-Tram.
+"Da Bornholmer Straße, con grande tempismo.",Bornholmer Straße,"Bornholmer Straße fa rima con Bornholmer Straße, ricorda questa scena!",Bornholmer Straße,"An der Bornholmer Straße, mit perfektem Timing."
+"Balzarono in grembo alla gente seduta,",gente seduta,"gente seduta fa rima con sitzende Leute, ricorda questa scena!",sitzende Leute,Sie sprangen auf die Schoße der sitzenden Leute.
+Annusando scarpe con aria astuta.,scarpe con aria astuta,"scarpe con aria astuta fa rima con Schuhe mit listiger Miene, ricorda questa scena!",Schuhe mit listiger Miene,Schnupperten an Schuhen mit listiger Miene.
+"Si sciolser le stringhe, ci fu gran panico,",gran panico,"gran panico fa rima con großes Chaos, ricorda questa scena!",großes Chaos,Die Schnürsenkel lösten sich – großes Chaos.
+Poi via saltaron vicino a un panificio.,panificio,"panificio fa rima con Bäckerei, ricorda questa scena!",Bäckerei,Dann sprangen sie nahe einer Bäckerei davon.
+"Il conducente con sguardo sconsolato,",sguardo sconsolato,"sguardo sconsolato fa rima con enttäuschter Blick, ricorda questa scena!",enttäuschter Blick,Der Fahrer mit enttäuschtem Blick.
+“Che gatti pazzi!” — e il tram fu bloccato.,gatti pazzi,"gatti pazzi fa rima con verrückte Katzen, ricorda questa scena!",verrückte Katzen,„Was für verrückte Katzen!“ – und die Bahn wurde gestoppt.
+Ora nei tram c’è un nuovo avviso:,nuovo avviso,"nuovo avviso fa rima con neuer Hinweis, ricorda questa scena!",neuer Hinweis,Jetzt gibt es in den Trams einen neuen Hinweis:
+“Niente artigli o balzi improvviso.”,artigli o balzi,"artigli o balzi fa rima con Krallen oder Sprünge, ricorda questa scena!",Krallen oder Sprünge,„Keine Krallen oder plötzliche Sprünge.“
+Nono Scherzo – Corsa sui Tetti,Corsa sui Tetti,"Corsa sui Tetti fa rima con Rennen über die Dächer, ricorda questa scena!",Rennen über die Dächer,Neunter Streich – Rennen über die Dächer.
+"I tetti di Berlino, larghi e sereni,",tetti di Berlino,"tetti di Berlino fa rima con Dächer von Berlin, ricorda questa scena!",Dächer von Berlin,"Die Dächer von Berlin, weit und ruhig."
+Perfetti per gatti con mille catene.,gatti con mille catene,"gatti con mille catene fa rima con Katzen mit tausend Wegen, ricorda questa scena!",Katzen mit tausend Wegen,Perfekt für Katzen mit tausend Wegen.
+"Sfrecciarono oltre antenne e piante,",oltre antenne e piante,"oltre antenne e piante fa rima con über Antennen und Pflanzen, ricorda questa scena!",über Antennen und Pflanzen,Sie flitzten über Antennen und Pflanzen.
+Versando vasi in caduta squillante.,vasi in caduta,"vasi in caduta fa rima con fallende Blumentöpfe, ricorda questa scena!",fallende Blumentöpfe,Sie stießen fallende Blumentöpfe um.
+"Un piccione volò — Ciri lo inseguì,",piccione volò,"piccione volò fa rima con Taube flog, ricorda questa scena!",Taube flog,Eine Taube flog – Ciri jagte hinterher.
+E Cappuccino con balzo partì.,balzo partì,"balzo partì fa rima con Sprung startete, ricorda questa scena!",Sprung startete,Und Cappuccino sprang mit einem Satz los.
+"Saltarono sul davanzale d’un vicino,",davanzale d’un vicino,"davanzale d’un vicino fa rima con Fensterbrett eines Nachbarn, ricorda questa scena!",Fensterbrett eines Nachbarn,Sie landeten auf dem Fensterbrett eines Nachbarn.
+Versando vernice giù dal camino!,vernice giù dal camino,"vernice giù dal camino fa rima con Farbe durch den Schornstein, ricorda questa scena!",Farbe durch den Schornstein,Sie kippten Farbe durch den Schornstein.
+Un pittore gridò — “I miei colori!”,pittore gridò,"pittore gridò fa rima con Maler rief, ricorda questa scena!",Maler rief,Ein Maler rief – „Meine Farben!“
+"Ma i gatti già via, rapidi come fiori.",rapidi come fiori,"rapidi come fiori fa rima con schnell wie Blumen, ricorda questa scena!",schnell wie Blumen,Doch die Katzen waren schon weg – schnell wie Blumen.
+Decimo Scherzo – La Parata di Maggio,Parata di Maggio,"Parata di Maggio fa rima con Mai-Parade, ricorda questa scena!",Mai-Parade,Zehnter Streich – Die Mai-Parade.
+"Nel primo maggio, con tamburi e speranza,",tamburi e speranza,"tamburi e speranza fa rima con Trommeln und Hoffnung, ricorda questa scena!",Trommeln und Hoffnung,"Am ersten Mai, mit Trommeln und Hoffnung."
+I gatti si unirono con tutta costanza.,con tutta costanza,"con tutta costanza fa rima con mit voller Ausdauer, ricorda questa scena!",mit voller Ausdauer,Die Katzen schlossen sich mit voller Ausdauer an.
+"Cappuccino con nastro rosso saltava,",nastro rosso,"nastro rosso fa rima con rotes Band, ricorda questa scena!",rotes Band,Cappuccino sprang mit rotem Band.
+Ciri invece uno striscione sventolava.,striscione sventolava,"striscione sventolava fa rima con Banner flatterte, ricorda questa scena!",Banner flatterte,Ciri ließ ein Banner flattern.
+"Rubaron la scena, danzarono allegri,",Rubaron la scena,"Rubaron la scena fa rima con Sie stahlen die Show, ricorda questa scena!",Sie stahlen die Show,Sie stahlen die Show und tanzten fröhlich.
+"Finché un carro con wurstel, che segni!",carro con wurstel,"carro con wurstel fa rima con Wurstwagen, ricorda questa scena!",Wurstwagen,Bis ein Wagen mit Würsten kam – was für ein Anblick!
+"Balzarono su e morsi a volontà,",morsi a volontà,"morsi a volontà fa rima con Bisse nach Belieben, ricorda questa scena!",Bisse nach Belieben,Sie sprangen rauf und bissen nach Belieben.
+Poi spariron — confetto e libertà.,confetto e libertà,"confetto e libertà fa rima con Konfekt und Freiheit, ricorda questa scena!",Konfekt und Freiheit,Dann verschwanden sie – Konfekt und Freiheit.
+Undicesimo Scherzo – Caos al Mercatino,Caos al Mercatino,"Caos al Mercatino fa rima con Chaos auf dem Flohmarkt, ricorda questa scena!",Chaos auf dem Flohmarkt,Elfter Streich – Chaos auf dem Flohmarkt.
+"Al Mauerpark nella fiera domenicale,",Mauerpark,"Mauerpark fa rima con Mauerpark, ricorda questa scena!",Mauerpark,Im Mauerpark beim sonntäglichen Fest.
+"Tra bancarelle e stoffe d’ogni stile,",stoffe d’ogni stile,"stoffe d’ogni stile fa rima con Stoffe aller Stile, ricorda questa scena!",Stoffe aller Stile,Zwischen Ständen und Stoffen aller Stile.
+"I gatti si intrufolaron tra camicie,",intrufolaron tra camicie,"intrufolaron tra camicie fa rima con schlichen zwischen Hemden, ricorda questa scena!",schlichen zwischen Hemden,Die Katzen schlichen zwischen Hemden hindurch.
+"Toccando giacche, tirando strisce.",tirando strisce,"tirando strisce fa rima con zerrten an Streifen, ricorda questa scena!",zerrten an Streifen,"Zogen an Jacken, zerrten an Streifen."
+"Un venditore urlò: ""Non si gioca lì!""",Non si gioca lì,"Non si gioca lì fa rima con Hier wird nicht gespielt, ricorda questa scena!",Hier wird nicht gespielt,Ein Verkäufer rief: „Hier wird nicht gespielt!“
+Ma Ciri fu lesta — e subito fuggì.,subito fuggì,"subito fuggì fa rima con sofort geflüchtet, ricorda questa scena!",sofort geflüchtet,Doch Ciri war schnell – und sofort geflüchtet.
+"Cappuccino annusò merletti e trine,",merletti e trine,"merletti e trine fa rima con Spitze und Tüll, ricorda questa scena!",Spitze und Tüll,Cappuccino schnupperte an Spitze und Tüll.
+Poi sparì tra gonne e vetrine.,tra gonne e vetrine,"tra gonne e vetrine fa rima con zwischen Röcken und Vitrinen, ricorda questa scena!",zwischen Röcken und Vitrinen,Dann verschwand er zwischen Röcken und Vitrinen.
+Dodicesimo Scherzo – Bici e Equilibrismi,Bici e Equilibrismi,"Bici e Equilibrismi fa rima con Fahrräder und Balanceakte, ricorda questa scena!",Fahrräder und Balanceakte,Zwölfter Streich – Fahrräder und Balanceakte.
+"Sul sentiero ciclabile vicino al Panke,",sentiero ciclabile,"sentiero ciclabile fa rima con Radweg, ricorda questa scena!",Radweg,Auf dem Radweg nahe dem Panke-Fluss.
+Salton su bici — oh che scatto e anche!,Salton su bici,"Salton su bici fa rima con Sprangen aufs Fahrrad, ricorda questa scena!",Sprangen aufs Fahrrad,Sie sprangen aufs Fahrrad – was für ein Antritt!
+"Ciri in cestino, elegante e fiero,",Ciri in cestino,"Ciri in cestino fa rima con Ciri im Korb, ricorda questa scena!",Ciri im Korb,"Ciri im Korb, elegant und stolz."
+Cappuccino in equilibrio vero.,equilibrio vero,"equilibrio vero fa rima con echtes Gleichgewicht, ricorda questa scena!",echtes Gleichgewicht,Cappuccino zeigte echtes Gleichgewicht.
+"Zigzag tra ruote, caschi e grida,",Zigzag tra ruote,"Zigzag tra ruote fa rima con Zickzack zwischen Rädern, ricorda questa scena!",Zickzack zwischen Rädern,"Zickzack zwischen Rädern, Helmen und Rufen."
+Un ciclista cade nella salita.,cade nella salita,"cade nella salita fa rima con fällt beim Aufstieg, ricorda questa scena!",fällt beim Aufstieg,Ein Radfahrer fällt beim Aufstieg.
+"Ma i gatti van via come fulmini d’oro,",fulmini d’oro,"fulmini d’oro fa rima con goldene Blitze, ricorda questa scena!",goldene Blitze,Die Katzen verschwinden wie goldene Blitze.
+Lasciando alle spalle solo stupore.,solo stupore,"solo stupore fa rima con nur Staunen, ricorda questa scena!",nur Staunen,Nur Staunen blieb hinter ihnen zurück.
+Tredicesimo Scherzo – Gelato Rubato,Gelato Rubato,"Gelato Rubato fa rima con Gestohlenes Eis, ricorda questa scena!",Gestohlenes Eis,Dreizehnter Streich – Das gestohlene Eis.
+"Vicino all’U-Bahn Wedding, tra il sole e l’aria,","Wedding, tra il sole","Wedding, tra il sole fa rima con Wedding, zwischen Sonne, ricorda questa scena!","Wedding, zwischen Sonne","In Wedding, zwischen Sonne und Luft."
+"Un gelato al gusto stracciatella, in aria.",stracciatella,"stracciatella fa rima con Stracciatella, ricorda questa scena!",Stracciatella,Ein Stracciatella-Eis flog durch die Luft.
+"Un bimbo si china a legarsi le scarpe,",bimbo si china,"bimbo si china fa rima con Junge beugt sich, ricorda questa scena!",Junge beugt sich,"Ein Junge beugt sich, um seine Schuhe zu binden."
+E Ciri già leccava — con lingue scarpe!,lingue scarpe,"lingue scarpe fa rima con leckt Schuhe, ricorda questa scena!",leckt Schuhe,Und Ciri leckte schon – mit der Zunge an den Schuhen!
+"Cappuccino mordicchiò il fondo del cono,",fondo del cono,"fondo del cono fa rima con Eiswaffelboden, ricorda questa scena!",Eiswaffelboden,Cappuccino knabberte am Eiswaffelboden.
+E fuggiron poi via — che bel dono!,che bel dono,"che bel dono fa rima con was für ein Geschenk, ricorda questa scena!",was für ein Geschenk,Dann rannten sie davon – was für ein Geschenk!
+"Il bimbo tornò e urlò con dispetto,",urlò con dispetto,"urlò con dispetto fa rima con rief verärgert, ricorda questa scena!",rief verärgert,Der Junge kehrte zurück und rief verärgert.
+Ma i due già spariti dietro un tetto.,spariti dietro un tetto,"spariti dietro un tetto fa rima con verschwanden hinter einem Dach, ricorda questa scena!",verschwanden hinter einem Dach,Aber die beiden waren schon hinter einem Dach verschwunden.
+Quattordicesimo Scherzo – Teatro Interrotto,Teatro Interrotto,"Teatro Interrotto fa rima con Unterbrochenes Theater, ricorda questa scena!",Unterbrochenes Theater,Vierzehnter Streich – Unterbrochenes Theater.
+"Al Prime Time Theater, luci e scena,",Prime Time Theater,"Prime Time Theater fa rima con Prime Time Theater, ricorda questa scena!",Prime Time Theater,Im Prime Time Theater: Lichter und Bühne.
+La gente applaude — l’atmosfera è piena.,applaude,"applaude fa rima con applaudiert, ricorda questa scena!",applaudiert,Das Publikum applaudiert – die Stimmung ist voll.
+"Ma da una fessura in alto, lì vicino,",fessura in alto,"fessura in alto fa rima con Spalt hoch oben, ricorda questa scena!",Spalt hoch oben,"Aber aus einem Spalt hoch oben, gleich daneben..."
+Sbucano due gatti con passo felino.,passo felino,"passo felino fa rima con Katzenschritt, ricorda questa scena!",Katzenschritt,Zwei Katzen erschienen mit Katzenschritt.
+"Saltan sul palco, in mezzo all’atto,",Saltan sul palco,"Saltan sul palco fa rima con springen auf die Bühne, ricorda questa scena!",springen auf die Bühne,"Sie springen auf die Bühne, mitten in der Szene."
+"Gli attori gelati, il pubblico in patto.",attori gelati,"attori gelati fa rima con gefrorene Schauspieler, ricorda questa scena!",gefrorene Schauspieler,"Die Schauspieler erstarrten, das Publikum einverstanden."
+"Qualcuno ride, altri han stupore,",Qualcuno ride,"Qualcuno ride fa rima con manche lachen, ricorda questa scena!",manche lachen,"Manche lachen, andere sind verwundert."
+Ma i due già spariti nel retro del cuore.,retro del cuore,"retro del cuore fa rima con Hinterbühne des Herzens, ricorda questa scena!",Hinterbühne des Herzens,Aber sie verschwanden schon in der Hinterbühne des Herzens.
+Quindicesimo Scherzo – Rave Felino,Rave Felino,"Rave Felino fa rima con Katzenrave, ricorda questa scena!",Katzenrave,Fünfzehnter Streich – Katzenrave.
+"In un rave vicino a Gesundbrunnen,",rave vicino a Gesundbrunnen,"rave vicino a Gesundbrunnen fa rima con Rave bei Gesundbrunnen, ricorda questa scena!",Rave bei Gesundbrunnen,Auf einem Rave bei Gesundbrunnen.
+"Dove i bassi fan vibrare anche i cuscini,",bassi fan vibrare,"bassi fan vibrare fa rima con Bässe lassen vibrieren, ricorda questa scena!",Bässe lassen vibrieren,Wo Bässe sogar Kissen vibrieren lassen.
+"Ciri si infila tra luci e suoni,",luci e suoni,"luci e suoni fa rima con Lichter und Klänge, ricorda questa scena!",Lichter und Klänge,Ciri taucht ein zwischen Lichter und Klänge.
+Cappuccino danza tra mille ronzii buoni.,ronzii buoni,"ronzii buoni fa rima con wohlige Summen, ricorda questa scena!",wohlige Summen,Cappuccino tanzt zwischen wohligen Summen.
+"Fanno cadere cuffie e vinili,",cuffie e vinili,"cuffie e vinili fa rima con Kopfhörer und Vinyls, ricorda questa scena!",Kopfhörer und Vinyls,Sie lassen Kopfhörer und Vinyls fallen.
+Poi corrono via tra i ballerini agili.,ballerini agili,"ballerini agili fa rima con flinke Tänzer, ricorda questa scena!",flinke Tänzer,Dann rennen sie durch die Menge flinker Tänzer.
+"""Chi ha portato i gatti in pista?""",gatti in pista,"gatti in pista fa rima con Katzen auf der Tanzfläche, ricorda questa scena!",Katzen auf der Tanzfläche,„Wer hat Katzen auf die Tanzfläche gebracht?“
+Ma loro eran già — fuori lista!,fuori lista,"fuori lista fa rima con nicht auf der Gästeliste, ricorda questa scena!",nicht auf der Gästeliste,Aber sie waren längst draußen – nicht auf der Gästeliste!
+Sedicesimo Scherzo – Graffiti con Zampette,Graffiti con Zampette,"Graffiti con Zampette fa rima con Graffiti mit Pfoten, ricorda questa scena!",Graffiti mit Pfoten,Sechzehnter Streich – Graffiti mit Pfoten.
+"Artisti di notte con bombolette,",bombolette,"bombolette fa rima con Spraydosen, ricorda questa scena!",Spraydosen,Künstler der Nacht mit Spraydosen.
+Spruzzavano muri con idee perfette.,idee perfette,"idee perfette fa rima con perfekte Ideen, ricorda questa scena!",perfekte Ideen,Sie besprühen Wände mit perfekten Ideen.
+"I gatti curiosi tra colori e linee,",colori e linee,"colori e linee fa rima con Farben und Linien, ricorda questa scena!",Farben und Linien,Die Katzen erkunden Farben und Linien.
+Lasciano zampe in tangerine.,zampe in tangerine,"zampe in tangerine fa rima con Pfoten in Mandarinenorange, ricorda questa scena!",Pfoten in Mandarinenorange,Sie hinterlassen Pfoten in Mandarinenorange.
+"Passan sul blu, poi rosa e verde,","blu, poi rosa e verde","blu, poi rosa e verde fa rima con Blau, dann Rosa und Grün, ricorda questa scena!","Blau, dann Rosa und Grün","Sie laufen über Blau, dann Rosa und Grün."
+Colle code dan forma che si perde.,code dan forma,"code dan forma fa rima con Schwänze formen Muster, ricorda questa scena!",Schwänze formen Muster,Ihre Schwänze formten ein sich verlierendes Muster.
+Al mattino tutti a fotografare:,tutti a fotografare,"tutti a fotografare fa rima con alle fotografieren, ricorda questa scena!",alle fotografieren,"Am Morgen kamen alle, um Fotos zu machen."
+“Arte felina! Da incorniciare!”,Arte felina,"Arte felina fa rima con Katzenkunst, ricorda questa scena!",Katzenkunst,„Katzenkunst! Zum Einrahmen!“
+Diciassettesimo Scherzo – Forno e Sonnellino,Forno e Sonnellino,"Forno e Sonnellino fa rima con Bäckerei und Nickerchen, ricorda questa scena!",Bäckerei und Nickerchen,Siebzehnter Streich – Bäckerei und Nickerchen.
+"Un panificio chiuso e silenzioso,",panificio chiuso,"panificio chiuso fa rima con geschlossene Bäckerei, ricorda questa scena!",geschlossene Bäckerei,"Eine geschlossene, stille Bäckerei."
+Profumava di pane e di riposo.,Profumava di pane,"Profumava di pane fa rima con roch nach Brot, ricorda questa scena!",roch nach Brot,Es roch nach Brot und nach Ruhe.
+"Cappuccino trovò uno spiraglio stretto,",spiraglio stretto,"spiraglio stretto fa rima con enger Spalt, ricorda questa scena!",enger Spalt,Cappuccino fand einen engen Spalt.
+Ciri lo seguì — con passo perfetto.,passo perfetto,"passo perfetto fa rima con perfekter Schritt, ricorda questa scena!",perfekter Schritt,Ciri folgte ihm – mit perfektem Schritt.
+"Si sdraiarono tra pani fragranti,",pani fragranti,"pani fragranti fa rima con duftende Brote, ricorda questa scena!",duftende Brote,Sie legten sich zwischen duftende Brote.
+Sognando brioche e dolci croccanti.,brioche e dolci croccanti,"brioche e dolci croccanti fa rima con Croissants und knusprige Süßigkeiten, ricorda questa scena!",Croissants und knusprige Süßigkeiten,Sie träumten von Croissants und knusprigen Süßigkeiten.
+Il fornaio urlò: “Il mio pane di segale!”,pane di segale,"pane di segale fa rima con Roggenbrot, ricorda questa scena!",Roggenbrot,Der Bäcker rief: „Mein Roggenbrot!“
+Ma accarezzandoli — perse ogni regola.,accarezzandoli,"accarezzandoli fa rima con streichelnd, ricorda questa scena!",streichelnd,Aber indem er sie streichelte – vergaß er jede Regel.
+Diciottesimo Scherzo – Galleria d'Arte,Galleria d'Arte,"Galleria d'Arte fa rima con Kunstgalerie, ricorda questa scena!",Kunstgalerie,Achtzehnter Streich – Kunstgalerie.
+"Alla galleria vicino alla piazza,",galleria vicino alla piazza,"galleria vicino alla piazza fa rima con Galerie nahe dem Platz, ricorda questa scena!",Galerie nahe dem Platz,In der Galerie nahe dem Platz.
+"Tra quadri astratti e luce che abbraccia,",quadri astratti,"quadri astratti fa rima con abstrakte Gemälde, ricorda questa scena!",abstrakte Gemälde,Zwischen abstrakten Gemälden und einhüllendem Licht.
+"Ciri toccava occhi cubisti,",occhi cubisti,"occhi cubisti fa rima con kubistische Augen, ricorda questa scena!",kubistische Augen,Ciri berührte kubistische Augen.
+Cappuccino saliva come un alpinista.,come un alpinista,"come un alpinista fa rima con wie ein Bergsteiger, ricorda questa scena!",wie ein Bergsteiger,Cappuccino kletterte wie ein Bergsteiger.
+"Zampe su tela, inchiostro versato,",inchiostro versato,"inchiostro versato fa rima con verschüttete Tinte, ricorda questa scena!",verschüttete Tinte,"Pfoten auf Leinwand, verschüttete Tinte."
+Impronte rosa — che quadro formato!,impronte rosa,"impronte rosa fa rima con rosafarbene Abdrücke, ricorda questa scena!",rosafarbene Abdrücke,Rosafarbene Abdrücke – welches Bild entstanden!
+"Un custode disse: ""Sono arte pop?""",arte pop,"arte pop fa rima con Pop-Art, ricorda questa scena!",Pop-Art,Ein Wächter fragte: „Ist das Pop-Art?“
+Con un sospiro e una gran mopp!,sospiro e una gran mopp,"sospiro e una gran mopp fa rima con Seufzer und ein großes Miau, ricorda questa scena!",Seufzer und ein großes Miau,Mit einem Seufzer und einem großen Miau!
+Diciannovesimo Scherzo – Natale Scatenato,Natale Scatenato,"Natale Scatenato fa rima con Wilder Weihnachtsstreich, ricorda questa scena!",Wilder Weihnachtsstreich,Neunzehnter Streich – Wilder Weihnachtsstreich.
+"Al mercatino di Natale, già di sera,",mercatino di Natale,"mercatino di Natale fa rima con Weihnachtsmarkt, ricorda questa scena!",Weihnachtsmarkt,"Auf dem Weihnachtsmarkt, schon am Abend."
+Si intrufolarono tra ogni bancarella vera.,bancarella vera,"bancarella vera fa rima con echter Stand, ricorda questa scena!",echter Stand,Sie schlichen zwischen jedem echten Stand.
+"Campanelli, biscotti e candele,","Campanelli, biscotti e candele","Campanelli, biscotti e candele fa rima con Glocken, Kekse und Kerzen, ricorda questa scena!","Glocken, Kekse und Kerzen","Glocken, Kekse und Kerzen."
+Giocarono tra luci e cioccolate belle.,cioccolate belle,"cioccolate belle fa rima con schöne Pralinen, ricorda questa scena!",schöne Pralinen,Sie spielten zwischen Lichtern und schönen Pralinen.
+"Un pupazzo cadde, una tazza si ruppe,",pupazzo cadde,"pupazzo cadde fa rima con Schneemann fiel, ricorda questa scena!",Schneemann fiel,"Ein Schneemann fiel, eine Tasse zerbrach."
+Ma loro con gioia — in zampate doppie.,zampate doppie,"zampate doppie fa rima con Doppeltatzensprünge, ricorda questa scena!",Doppeltatzensprünge,Aber sie rannten fröhlich – in Doppeltatzensprüngen.
+"Sotto un abete lucente e gentile,",abete lucente,"abete lucente fa rima con leuchtende Tanne, ricorda questa scena!",leuchtende Tanne,"Unter einer leuchtenden, sanften Tanne."
+"Fecero le fusa, di modo infantile.",le fusa,"le fusa fa rima con Schnurren, ricorda questa scena!",Schnurren,"Schnurrten sie, kindlich wie nie."
+Ventesimo Scherzo – Fuga al Tramonto,Fuga al Tramonto,"Fuga al Tramonto fa rima con Flucht im Sonnenuntergang, ricorda questa scena!",Flucht im Sonnenuntergang,Zwanzigster Streich – Flucht im Sonnenuntergang.
+"Alla stazione Rehberge, vicino al binario,",stazione Rehberge,"stazione Rehberge fa rima con Bahnhof Rehberge, ricorda questa scena!",Bahnhof Rehberge,"Am Bahnhof Rehberge, nahe dem Gleis."
+"Dove i piccioni fan coro gregario,",coro gregario,"coro gregario fa rima con taubenhafter Chor, ricorda questa scena!",taubenhafter Chor,Wo Tauben einen taubenhaften Chor bilden.
+"Aspettaron il treno come pendolari,",come pendolari,"come pendolari fa rima con wie Pendler, ricorda questa scena!",wie Pendler,Sie warteten wie Pendler auf den Zug.
+Con occhi brillanti e baffi singolari.,occhi brillanti,"occhi brillanti fa rima con glänzende Augen, ricorda questa scena!",glänzende Augen,Mit glänzenden Augen und einzigartigen Schnurrhaaren.
+Le porte si apron — ed ecco il salto!,ecco il salto,"ecco il salto fa rima con da ist der Sprung, ricorda questa scena!",da ist der Sprung,Die Türen öffnen sich — da ist der Sprung!
+Su uno zaino corrono — senza un sussulto.,zaino,"zaino fa rima con Rucksack, ricorda questa scena!",Rucksack,Sie rennen über einen Rucksack — ohne zu zucken.
+"I passeggeri scuotono la testa,",scuotono la testa,"scuotono la testa fa rima con schütteln den Kopf, ricorda questa scena!",schütteln den Kopf,Die Passagiere schütteln den Kopf.
+“Berlino e i suoi gatti — sempre in festa.”,sempre in festa,"sempre in festa fa rima con immer im Fest, ricorda questa scena!",immer im Fest,„Berlin und seine Katzen – immer im Fest.“
+Ventunesimo Scherzo – Festival della Birra,Festival della Birra,"Festival della Birra fa rima con Bierfestival, ricorda questa scena!",Bierfestival,Einundzwanzigster Streich – Bierfestival.
+"Al festival sotto i tendoni dorati,",tendoni dorati,"tendoni dorati fa rima con goldene Zelte, ricorda questa scena!",goldene Zelte,Beim Festival unter den goldenen Zelten.
+"Tra boccali e pretzel ben salati,",boccali e pretzel,"boccali e pretzel fa rima con Bierkrüge und Brezeln, ricorda questa scena!",Bierkrüge und Brezeln,Zwischen Bierkrügen und gut gesalzenen Brezeln.
+"I gatti sgattaiolan tra stivali e risate,",sgattaiolan tra stivali,"sgattaiolan tra stivali fa rima con schleichen zwischen Stiefeln, ricorda questa scena!",schleichen zwischen Stiefeln,Die Katzen schleichen zwischen Stiefeln und Lachen.
+Furbi e veloci tra sedie accatastate.,sedie accatastate,"sedie accatastate fa rima con gestapelte Stühle, ricorda questa scena!",gestapelte Stühle,Schlau und schnell zwischen gestapelten Stühlen.
+"Ciri salta su un tavolo in festa,",tavolo in festa,"tavolo in festa fa rima con Festtisch, ricorda questa scena!",Festtisch,Ciri springt auf einen Festtisch.
+Cappuccino annusa una birra lesta.,birra lesta,"birra lesta fa rima con flinke Bierflasche, ricorda questa scena!",flinke Bierflasche,Cappuccino schnuppert an einer flinken Bierflasche.
+"Con una zampa la spinge un po’,",una zampa,"una zampa fa rima con eine Pfote, ricorda questa scena!",eine Pfote,Mit einer Pfote schiebt er sie ein wenig.
+"E schiuma e birra — splash sul pavé, toh!",schiuma e birra,"schiuma e birra fa rima con Schaum und Bier, ricorda questa scena!",Schaum und Bier,"Und Schaum und Bier – splash auf das Pflaster, oh!"
+Ventiduesimo Scherzo – Giardino Botanico,Giardino Botanico,"Giardino Botanico fa rima con Botanischer Garten, ricorda questa scena!",Botanischer Garten,Zweiundzwanzigster Streich – Botanischer Garten.
+"Tra fiori rari e serre in vetro,",fiori rari,"fiori rari fa rima con seltene Blumen, ricorda questa scena!",seltene Blumen,Zwischen seltenen Blumen und gläsernen Gewächshäusern.
+"Dove tutto è ordine e decoro perfetto,",ordine e decoro perfetto,"ordine e decoro perfetto fa rima con Ordnung und perfekte Zier, ricorda questa scena!",Ordnung und perfekte Zier,Wo alles Ordnung und perfekte Zier war.
+"I due felini entrarono in scena,",entrarono in scena,"entrarono in scena fa rima con traten auf die Bühne, ricorda questa scena!",traten auf die Bühne,Die zwei Katzen traten auf die Bühne.
+Tra orchidee e ninfee — una vera pena.,orchidee e ninfee,"orchidee e ninfee fa rima con Orchideen und Seerosen, ricorda questa scena!",Orchideen und Seerosen,Zwischen Orchideen und Seerosen – welch ein Drama.
+"Ciri rincorse una farfalla blu,",farfalla blu,"farfalla blu fa rima con blauer Schmetterling, ricorda questa scena!",blauer Schmetterling,Ciri jagte einem blauen Schmetterling nach.
+Cappuccino rovesciò un cactus giù.,rovesciò un cactus,"rovesciò un cactus fa rima con warf einen Kaktus um, ricorda questa scena!",warf einen Kaktus um,Cappuccino warf einen Kaktus um.
+"“Attenzione alle zampe!” urlò la guida,",Attenzione alle zampe,"Attenzione alle zampe fa rima con Achtung auf die Pfoten, ricorda questa scena!",Achtung auf die Pfoten,"„Achtung auf die Pfoten!“, rief der Führer."
+"Ma i gatti già via, come una sfida.",come una sfida,"come una sfida fa rima con wie eine Herausforderung, ricorda questa scena!",wie eine Herausforderung,Aber die Katzen waren schon weg – wie eine Herausforderung.
+Ventitreesimo Scherzo – Lezione Interrotta,Lezione Interrotta,"Lezione Interrotta fa rima con Unterbrochene Vorlesung, ricorda questa scena!",Unterbrochene Vorlesung,Dreiundzwanzigster Streich – Unterbrochene Vorlesung.
+"All’università, tra aule e caffè,",tra aule e caffè,"tra aule e caffè fa rima con zwischen Hörsälen und Kaffee, ricorda questa scena!",zwischen Hörsälen und Kaffee,"An der Uni, zwischen Hörsälen und Kaffee."
+"I mici si infilano, piano com’è.",si infilano,"si infilano fa rima con schleichen sich hinein, ricorda questa scena!",schleichen sich hinein,Die Katzen schleichen sich leise hinein.
+"Durante una lezione di sociologia,",lezione di sociologia,"lezione di sociologia fa rima con Soziologievorlesung, ricorda questa scena!",Soziologievorlesung,Während einer Soziologievorlesung.
+Si senton miagolii con certa energia.,miagolii con energia,"miagolii con energia fa rima con energisches Miauen, ricorda questa scena!",energisches Miauen,Man hört energisches Miauen.
+"Ciri salta sulla cattedra accesa,",cattedra accesa,"cattedra accesa fa rima con leuchtendes Pult, ricorda questa scena!",leuchtendes Pult,Ciri springt auf das leuchtende Pult.
+Cappuccino morde una penna sospesa.,penna sospesa,"penna sospesa fa rima con schwebender Stift, ricorda questa scena!",schwebender Stift,Cappuccino beißt in einen schwebenden Stift.
+"Il prof sospira, gli studenti ridono,",prof sospira,"prof sospira fa rima con Professor seufzt, ricorda questa scena!",Professor seufzt,"Der Professor seufzt, die Studenten lachen."
+"I gatti scappano, i cuori si stringono.",cuori si stringono,"cuori si stringono fa rima con Herzen schlagen schneller, ricorda questa scena!",Herzen schlagen schneller,"Die Katzen fliehen, die Herzen schlagen schneller."
+Ventiquattresimo Scherzo – Yoga Catastrophe,Yoga Catastrophe,"Yoga Catastrophe fa rima con Yoga-Katastrophe, ricorda questa scena!",Yoga-Katastrophe,Vierundzwanzigster Streich – Yoga-Katastrophe.
+"Nel parco, un gruppo fa yoga al tramonto,",yoga al tramonto,"yoga al tramonto fa rima con Yoga bei Sonnenuntergang, ricorda questa scena!",Yoga bei Sonnenuntergang,Im Park macht eine Gruppe Yoga bei Sonnenuntergang.
+"Silenzio e respiro, il ritmo è pronto.",Silenzio e respiro,"Silenzio e respiro fa rima con Stille und Atem, ricorda questa scena!",Stille und Atem,"Stille und Atem, der Rhythmus ist bereit."
+"Ma dai cespugli escono i due banditi,",cespugli escono,"cespugli escono fa rima con aus den Büschen kommen, ricorda questa scena!",aus den Büschen kommen,Aber aus den Büschen kommen die zwei Banditen.
+"Con salti e giochi, movimenti arditi.",salti e giochi,"salti e giochi fa rima con Sprünge und Spiele, ricorda questa scena!",Sprünge und Spiele,"Mit Sprüngen und Spielen, kühne Bewegungen."
+"Ciri si infila sotto una “posizione cane”,",posizione cane,"posizione cane fa rima con Hundestellung, ricorda questa scena!",Hundestellung,Ciri schlüpft unter eine „Hundestellung“.
+Cappuccino lecca una schiena con stranezze umane.,lecca una schiena,"lecca una schiena fa rima con leckt einen Rücken, ricorda questa scena!",leckt einen Rücken,Cappuccino leckt einen Rücken – ganz seltsam.
+"“Om...” si trasforma in risate totali,",Om si trasforma,"Om si trasforma fa rima con Om wird zu, ricorda questa scena!",Om wird zu,„Om...“ verwandelt sich in totales Lachen.
+I gatti scappano — ma sono geniali.,gatti scappano,"gatti scappano fa rima con Katzen fliehen, ricorda questa scena!",Katzen fliehen,Die Katzen fliehen – aber sie sind genial.
+Venticinquesimo Scherzo – Mercato del Pesce,Mercato del Pesce,"Mercato del Pesce fa rima con Fischmarkt, ricorda questa scena!",Fischmarkt,Fünfundzwanzigster Streich – Fischmarkt.
+"Al mercato dove il pesce è fresco,",pesce fresco,"pesce fresco fa rima con frischer Fisch, ricorda questa scena!",frischer Fisch,"Auf dem Markt, wo der Fisch frisch ist."
+I due senton l’odore — non è mai lo stesso.,odore,"odore fa rima con Geruch, ricorda questa scena!",Geruch,Die beiden riechen – es ist immer ein neuer Geruch.
+"Tra banchi bagnati e urla dei venditori,",banchi bagnati,"banchi bagnati fa rima con nasse Stände, ricorda questa scena!",nasse Stände,Zwischen nassen Ständen und den Rufen der Händler.
+I mici si muovon come predatori.,predatori,"predatori fa rima con Raubtiere, ricorda questa scena!",Raubtiere,Die Katzen bewegen sich wie Raubtiere.
+"Un polpo sparisce, un gambero vola,",polpo sparisce,"polpo sparisce fa rima con Krake verschwindet, ricorda questa scena!",Krake verschwindet,"Ein Krake verschwindet, eine Garnele fliegt."
+"Ciri ringhia fiero, Cappuccino si scola",ringhia fiero,"ringhia fiero fa rima con knurrt stolz, ricorda questa scena!",knurrt stolz,"Ciri knurrt stolz, Cappuccino leert den Fang."
+Un’aringa lasciata sul ghiaccio.,aringa sul ghiaccio,"aringa sul ghiaccio fa rima con Hering auf Eis, ricorda questa scena!",Hering auf Eis,Ein Hering bleibt auf dem Eis zurück.
+“Ma questi gatti son proprio un impaccio!”,un impaccio,"un impaccio fa rima con eine Plage, ricorda questa scena!",eine Plage,„Diese Katzen sind wirklich eine Plage!“
+Ventiseiesimo Scherzo – Wedding in Bicicletta,Wedding in Bicicletta,"Wedding in Bicicletta fa rima con Wedding per Fahrrad, ricorda questa scena!",Wedding per Fahrrad,Sechsundzwanzigster Streich – Wedding per Fahrrad.
+"Una bici pubblica, parcheggiata a caso,",bici pubblica,"bici pubblica fa rima con öffentliches Fahrrad, ricorda questa scena!",öffentliches Fahrrad,"Ein öffentliches Fahrrad, zufällig geparkt."
+Diventa per loro un mezzo di spasso.,mezzo di spasso,"mezzo di spasso fa rima con Spaßfahrzeug, ricorda questa scena!",Spaßfahrzeug,Wird für sie ein echtes Spaßfahrzeug.
+"Ciri sul sellino, con sguardo deciso,",Ciri sul sellino,"Ciri sul sellino fa rima con Ciri auf dem Sattel, ricorda questa scena!",Ciri auf dem Sattel,"Ciri sitzt auf dem Sattel, mit entschlossenem Blick."
+Cappuccino spinge con passo preciso.,passo preciso,"passo preciso fa rima con präziser Schritt, ricorda questa scena!",präziser Schritt,Cappuccino schiebt mit präzisem Schritt.
+"Qualcuno riprende, finisce su TikTok,",TikTok,"TikTok fa rima con TikTok, ricorda questa scena!",TikTok,Jemand filmt – es landet auf TikTok.
+"""Due gatti in bici!"" — boom di like non stop.",gatti in bici,"gatti in bici fa rima con Katzen auf Fahrrädern, ricorda questa scena!",Katzen auf Fahrrädern,„Zwei Katzen auf Fahrrädern!“ – ein Like-Boom nonstop.
+"E mentre i follower aumentano ancora,",follower aumentano,"follower aumentano fa rima con Follower steigen, ricorda questa scena!",Follower steigen,Und während die Follower weiter steigen...
+Loro scompaiono... all’ora dell’aurora.,all’ora dell’aurora,"all’ora dell’aurora fa rima con bei Tagesanbruch, ricorda questa scena!",bei Tagesanbruch,Verschwinden sie – bei Tagesanbruch.
+Ventisettesimo Scherzo – Libreria Invasione,Libreria Invasione,"Libreria Invasione fa rima con Bücherladen-Invasion, ricorda questa scena!",Bücherladen-Invasion,Siebenundzwanzigster Streich – Bücherladen-Invasion.
+"Nella libreria su Lindower Straße,",libreria su Lindower Straße,"libreria su Lindower Straße fa rima con Buchladen an der Lindower Straße, ricorda questa scena!",Buchladen an der Lindower Straße,Im Buchladen an der Lindower Straße.
+"Tra romanzi, gialli e copertine rosa,",copertine rosa,"copertine rosa fa rima con rosa Einbände, ricorda questa scena!",rosa Einbände,"Zwischen Romanen, Krimis und rosa Einbänden."
+"I gatti si infilano tra scaffali stretti,",scaffali stretti,"scaffali stretti fa rima con enge Regale, ricorda questa scena!",enge Regale,Die Katzen schlüpfen zwischen engen Regalen.
+Leggendo a modo loro... con salti perfetti.,salti perfetti,"salti perfetti fa rima con perfekte Sprünge, ricorda questa scena!",perfekte Sprünge,Lesen auf ihre Weise... mit perfekten Sprüngen.
+"Un libro cade, ne cadon altri tre,",libro cade,"libro cade fa rima con ein Buch fällt, ricorda questa scena!",ein Buch fällt,Ein Buch fällt – und noch drei mehr.
+Ciri si strofina tra le edizioni di Camus e Prévert.,edizioni di Camus,"edizioni di Camus fa rima con Camus-Ausgaben, ricorda questa scena!",Camus-Ausgaben,Ciri reibt sich an Camus-Ausgaben und Klassikern.
+La libraia sospira: “Son letterari…”,la libraia sospira,"la libraia sospira fa rima con die Buchhändlerin seufzt, ricorda questa scena!",die Buchhändlerin seufzt,Die Buchhändlerin seufzt: „Sie sind wohl literarisch…“
+"Ma li caccia comunque, con gesti rari.",gesti rari,"gesti rari fa rima con seltene Gesten, ricorda questa scena!",seltene Gesten,Doch sie wirft sie hinaus – mit seltenen Gesten.
+Ventottesimo Scherzo – Notte al Planetario,Notte al Planetario,"Notte al Planetario fa rima con Nacht im Planetarium, ricorda questa scena!",Nacht im Planetarium,Achtundzwanzigster Streich – Nacht im Planetarium.
+"Tra stelle finte e luci che brillano,",stelle finte,"stelle finte fa rima con falsche Sterne, ricorda questa scena!",falsche Sterne,Zwischen falschen Sternen und strahlendem Licht.
+I mici entrano quando i sogni scintillano.,sogni scintillano,"sogni scintillano fa rima con Träume funkeln, ricorda questa scena!",Träume funkeln,"Die Katzen schleichen sich hinein, wenn Träume funkeln."
+"Un bambino li vede, punta il dito:",punta il dito,"punta il dito fa rima con zeigt mit dem Finger, ricorda questa scena!",zeigt mit dem Finger,Ein Kind sieht sie und zeigt mit dem Finger:
+“Due gatti sulla Luna! Che mito!”,sulla Luna,"sulla Luna fa rima con auf dem Mond, ricorda questa scena!",auf dem Mond,„Zwei Katzen auf dem Mond! Was für ein Mythos!“
+"Si sdraian tra seggi e proiezioni stellari,",proiezioni stellari,"proiezioni stellari fa rima con Sternprojektionen, ricorda questa scena!",Sternprojektionen,Sie legen sich zwischen Sitze und Sternprojektionen.
+Facendo le fusa tra comete e pianari.,comete e pianari,"comete e pianari fa rima con Kometen und Planeten, ricorda questa scena!",Kometen und Planeten,Schnurren zwischen Kometen und nahen Planeten.
+"Ma quando parte il suono di un razzo finto,",razzo finto,"razzo finto fa rima con falsche Rakete, ricorda questa scena!",falsche Rakete,Doch als die falsche Rakete startet...
+Scappan via come vento — un istinto!,come vento,"come vento fa rima con wie der Wind, ricorda questa scena!",wie der Wind,Sie fliehen wie der Wind – ein reiner Instinkt!
+Ventinovesimo Scherzo – Falò Estivo,Falò Estivo,"Falò Estivo fa rima con Sommerliches Lagerfeuer, ricorda questa scena!",Sommerliches Lagerfeuer,Neunundzwanzigster Streich – Sommerliches Lagerfeuer.
+"Sul fiume c’è musica, un falò acceso,",sul fiume,"sul fiume fa rima con am Fluss, ricorda questa scena!",am Fluss,Am Fluss: Musik und ein helles Lagerfeuer.
+"C’è chi canta, chi ride, chi si è già steso.",chi ride,"chi ride fa rima con wer lacht, ricorda questa scena!",wer lacht,"Einige singen, andere lachen, manche liegen schon."
+"I gatti sbucano tra marshmallow e birra,",marshmallow e birra,"marshmallow e birra fa rima con Marshmallows und Bier, ricorda questa scena!",Marshmallows und Bier,Die Katzen tauchen auf zwischen Marshmallows und Bier.
+Col naso sporco e la zampa che stirra.,zampa che stirra,"zampa che stirra fa rima con Pfote, die sich streckt, ricorda questa scena!","Pfote, die sich streckt",Mit schmutziger Nase und einer gestreckten Pfote.
+"Ciri cerca di arrostire un wurstel,",arrostire un wurstel,"arrostire un wurstel fa rima con Würstchen grillen, ricorda questa scena!",Würstchen grillen,"Ciri versucht, ein Würstchen zu grillen."
+Cappuccino lecca una torta all’anice e mirtel.,anice e mirtel,"anice e mirtel fa rima con Anis und Heidelbeere, ricorda questa scena!",Anis und Heidelbeere,Cappuccino leckt eine Torte aus Anis und Heidelbeere.
+"Uno dice: “Lasciamoli stare, son dei miti!”",lasciamoli stare,"lasciamoli stare fa rima con lasst sie in Ruhe, ricorda questa scena!",lasst sie in Ruhe,Einer sagt: „Lasst sie in Ruhe – sie sind Legenden.“
+E loro rispondon... con occhi infiniti.,occhi infiniti,"occhi infiniti fa rima con unendliche Augen, ricorda questa scena!",unendliche Augen,Und sie antworten... mit unendlichen Augen.
+Trentesimo Scherzo – Il Gran Finale,Il Gran Finale,"Il Gran Finale fa rima con Das große Finale, ricorda questa scena!",Das große Finale,Dreißigster Streich – Das große Finale.
+"Sul ponte di Tegeler, al tramonto dorato,",ponte di Tegeler,"ponte di Tegeler fa rima con Tegeler Brücke, ricorda questa scena!",Tegeler Brücke,"Auf der Tegeler Brücke, im goldenen Sonnenuntergang."
+"Ciri e Cappuccino, con passo garbato,",passo garbato,"passo garbato fa rima con graziöser Schritt, ricorda questa scena!",graziöser Schritt,Ciri und Cappuccino – mit graziösem Schritt.
+"Osservano Wedding e il giorno che muore,",Wedding e il giorno,"Wedding e il giorno fa rima con Wedding und der Tag, ricorda questa scena!",Wedding und der Tag,Sie betrachten Wedding und den sterbenden Tag.
+Sognando le imprese del giorno anteriore.,imprese del giorno,"imprese del giorno fa rima con Taten des Tages, ricorda questa scena!",Taten des Tages,Und träumen von den Taten des vergangenen Tages.
+"Poi un salto sul tram, col portone aperto,",salto sul tram,"salto sul tram fa rima con Sprung in die Straßenbahn, ricorda questa scena!",Sprung in die Straßenbahn,Dann – ein Sprung in die offene Straßenbahn.
+"Destinazione ignota, sguardo coperto.",sguardo coperto,"sguardo coperto fa rima con verdeckter Blick, ricorda questa scena!",verdeckter Blick,"Ziel unbekannt, mit verdecktem Blick."
+Forse Neukölln? Forse Pankow o Mitte?,Neukölln Pankow Mitte,"Neukölln Pankow Mitte fa rima con Neukölln, Pankow oder Mitte, ricorda questa scena!","Neukölln, Pankow oder Mitte",Vielleicht Neukölln? Pankow oder Mitte?
+"Chi lo sa — son gatti, son mitiche hitte.",son mitiche hitte,"son mitiche hitte fa rima con sind legendäre Miezen, ricorda questa scena!",sind legendäre Miezen,"Wer weiß – sie sind Katzen, sie sind legendäre Miezen."
