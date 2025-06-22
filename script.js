@@ -42,13 +42,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function flipCard() {
         cardInner.classList.toggle('flipped');
         updateThemeColor();
-        if (navigator.vibrate) {
-            navigator.vibrate(10);
-        }
     }
 
-    flipBtnFront.addEventListener('click', flipCard);
-    flipBtnBack.addEventListener('click', flipCard);
+    flipBtnFront.addEventListener('click', () => {
+        flipCard();
+        if (navigator.vibrate) { navigator.vibrate(10); }
+    });
+    flipBtnBack.addEventListener('click', () => {
+        flipCard();
+        if (navigator.vibrate) { navigator.vibrate(10); }
+    });
 
     function filterAndDisplayCards() {
         displayedFlashcards = allFlashcards.filter(card => !doneCards.includes(card.front_word));
@@ -163,6 +166,9 @@ document.addEventListener('DOMContentLoaded', () => {
             cardBack.classList.add('done');
             doneBtn.classList.add('done');
             doneBtn.textContent = 'Marked as done';
+            if (cardInner.classList.contains('flipped')) {
+                flipCard();
+            }
         }
         localStorage.setItem('doneCards', JSON.stringify(doneCards));
         updateThemeColor();
@@ -170,7 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
             navigator.vibrate(50);
         }
 
-        // A brief delay allows the user to see the "done" animation before it's removed
         setTimeout(filterAndDisplayCards, 300);
     });
 
