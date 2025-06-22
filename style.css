@@ -133,7 +133,8 @@ body {
 }
 
 button {
-    width: 12rem; /* w-48 */
+    width: 100%; /* Full width of card content */
+    height: 40px; /* Fixed height of 40px */
     padding: 0.5rem 1rem; /* px-4 py-2 */
     border-radius: 9999px; /* rounded-full */
     font-weight: 600; /* font-semibold */
@@ -172,6 +173,14 @@ button:hover {
     justify-content: space-between;
     padding: 0 1rem;
     pointer-events: none; /* Pass clicks through */
+    display: none; /* Hidden by default on mobile */
+}
+
+/* Show navigation arrows on desktop/tablet */
+@media (min-width: 768px) {
+    .navigation-arrows {
+        display: flex;
+    }
 }
 
 #prev-btn, #next-btn {

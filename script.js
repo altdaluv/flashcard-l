@@ -186,10 +186,18 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleSwipe() {
         const swipeThreshold = 50; // Minimum distance for a swipe in pixels
         if (touchEndX < touchStartX - swipeThreshold) {
-            nextBtn.click(); // Swiped left
+            // Swiped left - go to next card
+            if (currentCardIndex < displayedFlashcards.length - 1) {
+                currentCardIndex++;
+                showCard(currentCardIndex);
+            }
         }
         if (touchEndX > touchStartX + swipeThreshold) {
-            prevBtn.click(); // Swiped right
+            // Swiped right - go to previous card
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                showCard(currentCardIndex);
+            }
         }
     }
 
