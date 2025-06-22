@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cardInner = document.querySelector('.card-inner');
     const flashcardContainer = document.getElementById('flashcard-container');
+    const congratsScreen = document.getElementById('congrats-screen');
+    const resetProgressBtn = document.getElementById('reset-progress-btn');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const doneBtn = document.getElementById('done-btn');
@@ -84,15 +86,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showCard(index) {
-        if (displayedFlashcards.length === 0) {
-            // Handle case where there are no cards to show
-            frontWord.textContent = 'All cards learned! Toggle "Review All" to see them again.';
-            backWord.textContent = 'Congratulations!';
-            // You might want to hide other elements here
-            updateButtons();
-            return;
+        if (cardInner.classList.contains('flipped')) {
+            cardInner.classList.remove('flipped');
         }
         
+        if (displayedFlashcards.length === 0) {
+            flashcardContainer.classList.add('hidden');
+            congratsScreen.classList.remove('hidden');
+            prevBtn.classList.add('hidden');
+            nextBtn.classList.add('hidden');
+            return;
+        }
+
+        flashcardContainer.classList.remove('hidden');
+        congratsScreen.classList.add('hidden');
+        prevBtn.classList.remove('hidden');
+        nextBtn.classList.remove('hidden');
+
         const cardData = displayedFlashcards[index];
         const uniqueId = cardData['front_word'];
 
@@ -186,6 +196,12 @@ document.addEventListener('DOMContentLoaded', () => {
         touchEndX = e.changedTouches[0].screenX;
         handleSwipe();
     }, { passive: true });
+
+    resetProgressBtn.addEventListener('click', () => {
+        doneCards = [];
+        localStorage.removeItem('doneCards');
+        filterAndDisplayCards();
+    });
 
     loadFlashcards();
 }); 

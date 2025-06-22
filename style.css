@@ -193,4 +193,37 @@ button:hover {
 #prev-btn:disabled, #next-btn:disabled {
     opacity: 0.3;
     cursor: not-allowed;
+}
+
+/* Congrats Screen */
+#congrats-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+#congrats-screen h1 {
+    font-size: 2.5rem;
+    font-family: serif;
+}
+
+#congrats-screen p {
+    font-size: 1.2rem;
+}
+
+#reset-progress-btn {
+    margin-top: 20px;
+    background-color: #007aff;
+}
+
+.hidden {
+    display: none !important;
 } 
