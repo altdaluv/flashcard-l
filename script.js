@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const doneBtn = document.getElementById('done-btn');
     const flipBtnFront = document.querySelector('.flip-btn-front');
     const flipBtnBack = document.querySelector('.flip-btn-back');
+    const viewBtn = document.getElementById('view-btn');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const closeModal = document.getElementById('close-modal');
+    const modalBody = document.getElementById('modal-body');
 
     // Card face elements
     const frontWord = document.getElementById('front-word');
@@ -214,6 +218,36 @@ document.addEventListener('DOMContentLoaded', () => {
         doneCards = [];
         localStorage.removeItem('doneCards');
         filterAndDisplayCards();
+    });
+
+    viewBtn.addEventListener('click', () => {
+        modalOverlay.classList.add('active');
+        modalBody.innerHTML = '';
+        
+        allFlashcards.forEach((card, index) => {
+            const sentenceDiv = document.createElement('div');
+            sentenceDiv.className = 'sentence-item';
+            sentenceDiv.innerHTML = `<p>${card.front_sentence}</p>`;
+            modalBody.appendChild(sentenceDiv);
+        });
+    });
+
+    closeModal.addEventListener('click', () => {
+        modalOverlay.classList.remove('active');
+    });
+
+    // Close modal when clicking outside
+    modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+            modalOverlay.classList.remove('active');
+        }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+            modalOverlay.classList.remove('active');
+        }
     });
 
     loadFlashcards();
